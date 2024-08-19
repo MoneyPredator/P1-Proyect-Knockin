@@ -1,5 +1,8 @@
 ## Comandos de git
 
+*Recibir actualizaciones del repositorio remoto*  
+__git pull__
+
 *Este comando es para hacer seguimiento a los cambios hechos desde el ultimo commit*  
 __git add .__
 
