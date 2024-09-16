@@ -1,0 +1,33 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name ="Omega Rugal 2002"
+displayname ="Omega Rugal"
+versiondate =28.04.2003
+mugenversion =1.0
+author ="Elphzio, John 7 , Ariel Gonzalez and ThE McPrO"
+pal.defaults =6,2,3,4,5,6
+
+[Files]
+sprite =O-Rugal-KOFM.sff
+anim =O-Rugal-KOFM.air
+sound =O-Rugal-KOFM.snd
+cmd =O-Rugal-KOFM.cmd
+cns =O-Rugal-KOFM.cns
+stcommon =Common1.cns
+st =O-Rugal-KOFM.cns
+pal1=Paletas\O-Rugal-KOFM-1.act
+st1=O-Rugal-KOFM-2-3.cns
+st2=O-Rugal-KOFM-N.st
+st3=O-Rugal-KOFM-S.st
+st4=O-Rugal-KOFM-H.st
+
+
+
+; Arcade mode
+[Arcade]
+intro.storyboard  =Story\intro.def
+ending.storyboard=ending/ending.def

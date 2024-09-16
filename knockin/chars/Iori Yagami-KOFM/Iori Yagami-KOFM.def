@@ -1,0 +1,37 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Iori Yagami"
+displayname ="iori yagami"
+versiondate = 03/10/2023
+mugenversion =1.0
+Author = "AVLAR"
+;author = "Zelgadis"
+pal.defaults = 4,1,2,3,5,6
+localcoord = 427,240
+
+[Files]
+sprite =Iori-Yagami.sff
+anim =Iori-Yagami.air
+sound =Iori-Yagami.snd
+cmd =Iori-Yagami.cmd
+cns =Iori-Yagami.cns
+stcommon =common1.cns
+st =Iori-Yagami.cns
+pal1=paletas\Iori-Yagami-1.act
+pal2=paletas\Iori-Yagami-2.act
+pal3=paletas\Iori-Yagami-3.act
+pal4=paletas\Iori-Yagami-Original.act
+pal5=paletas\Iori-Yagami-5.act
+pal6=paletas\Iori-Yagami-6.act
+st1=Iori-Yagami-N.cns
+st2=Iori-Yagami-S.cns
+st3=Iori-Yagami-H.cns
+st4=Iori-Yagami-2-3.cns
+
+[Arcade]
+intro.storyboard =History.def
+ending.storyboard =Ending-original.def

@@ -1,2 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<history/>
+<history>
+    <entry name="Broly" file="C:/Users/santi/Desktop/P1/knockin/knockin/chars/BrolyNormal/BrolyNormal.def"/>
+    <entry name="yujiro" file="C:/Users/santi/Desktop/P1/knockin/knockin/chars/yujiro/yujiro.def"/>
+    <entry name="Guts OP" file="C:/Users/santi/Desktop/P1/knockin/knockin/chars/Guts OP/Guts OP.def"/>
+    <entry name="Broly" file="C:/Users/santi/Desktop/P1/knockin/knockin/chars/BrolyNormal/BrolyBoss.def"/>
+    <entry name="Moonman" file="C:/Users/santi/Desktop/P1/knockin/knockin/chars/Moonman/Moonman.def"/>
+    <entry name="Omega Rugal 2002" file="C:/Users/santi/Desktop/P1/knockin/knockin/chars/Omega Rugal 2002-KOFM/Omega Rugal 2002-KOFM.def"/>
+    <entry name="Moonman" file="C:/Users/santi/Desktop/P1/tools/Moonman/Moonman.def"/>
+    <entry name="Moonman" file="C:/Users/santi/Downloads/Moonman/Moonman.def"/>
+</history>

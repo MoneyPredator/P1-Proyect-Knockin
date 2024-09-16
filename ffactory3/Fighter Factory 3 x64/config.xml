@@ -34,19 +34,25 @@
     <config name="gif_path" value=""/>
     <config name="iconset" value=""/>
     <config name="language" value="en-us"/>
-    <config name="main_axis_x" value="302"/>
-    <config name="main_axis_y" value="395"/>
+    <config name="last_mugen" value=""/>
+    <config name="main_axis_x" value="371"/>
+    <config name="main_axis_y" value="401"/>
     <config name="main_toolbar" value="4"/>
     <config name="max_history" value="30"/>
+    <config name="mugen_0_exe" value="C:/Users/santi/Desktop/P1/knockin/knockin/mugen.exe"/>
+    <config name="mugen_0_icon" value=""/>
+    <config name="mugen_0_name" value="Mugen"/>
+    <config name="mugen_0_params" value="%0 %0"/>
     <config name="onion_effect" value="1"/>
     <config name="onion_opacity" value="80"/>
     <config name="preset" value="Classic"/>
-    <config name="proj_path" value=""/>
+    <config name="proj_path" value="C:/Users/santi/Desktop/P1/knockin/knockin/chars/BrolyNormal"/>
     <config name="quicksearch_back" value="false"/>
     <config name="quicksearch_case" value="false"/>
     <config name="quicksearch_circular" value="false"/>
     <config name="quicksearch_regexp" value="false"/>
-    <config name="save_only_modified" value="1"/>
+    <config name="reverse_spr_axis" value="false"/>
+    <config name="save_only_modified" value="true"/>
     <config name="show_action_list" value="false"/>
     <config name="show_addpalette_dialog" value="true"/>
     <config name="show_addsound_dialog" value="true"/>
@@ -71,7 +77,7 @@
     <config name="show_trans_color" value="false"/>
     <config name="snd_path" value=""/>
     <config name="sort_file_names" value="true"/>
-    <config name="spr_path" value=""/>
+    <config name="spr_path" value="C:/Users/santi/Documents/Universidad/InicioK_AME/Frames"/>
     <config name="sprite_over_guides" value="false"/>
     <config name="stylesheet" value=""/>
     <config name="switch_frame_spr" value="true"/>
@@ -81,12 +87,12 @@
     <config name="toolbar_first" value="true"/>
     <config name="undo_limit" value="64"/>
     <config name="use_opengl" value="false"/>
-    <config name="window_height" value="609"/>
-    <config name="window_left" value="47"/>
-    <config name="window_state" value="0"/>
-    <config name="window_top" value="71"/>
-    <config name="window_width" value="1040"/>
-    <config name="zoom_center" value=""/>
+    <config name="window_height" value="697"/>
+    <config name="window_left" value="0"/>
+    <config name="window_state" value="10"/>
+    <config name="window_top" value="23"/>
+    <config name="window_width" value="1366"/>
+    <config name="zoom_center" value="0"/>
     <config name="zoom_level" value="2"/>
     <config name="zoom_mode" value="1"/>
 </configuration>

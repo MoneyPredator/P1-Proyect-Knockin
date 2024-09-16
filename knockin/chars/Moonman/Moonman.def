@@ -1,0 +1,26 @@
+;***************************************************************************;
+;******************* Created in Fighter Factory Ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[Info]
+name = "Moonman"
+displayname = "Moonman"
+versiondate = 04,14,2001
+mugenversion = 04,14,2001
+author = "f"
+pal.defaults = 1
+
+[Files]
+sprite = omegal.sff
+anim = omegal.air
+sound = omegal.snd
+cmd = omegal.cmd
+cns = omegal.cns
+stcommon = omegal1.cns
+st = omegal.cns
+pal1 = omegal.act
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 
