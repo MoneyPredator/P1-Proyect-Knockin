@@ -1,0 +1,169 @@
+;                        EDITED STAGE
+;=============================================================
+;  STAGE INFORMATION :
+;
+;  Resolution : 1280 * 720
+;  Mugen Version : Mugen 1.1 only
+;  Versiondate : 2020
+;  
+;
+;=============================================================
+[Info]
+Name = "(AOT) PRISON ROOF"
+displayname="(AOT) PRISON ROOF"
+author="Vovan99" 
+mugenversion=1.1
+
+;--------------------------------------------------------
+[camera]
+startx = 0
+starty = 0
+boundleft =0
+boundright = 0
+boundhigh=-380 
+boundlow =0
+verticalfollow = .70
+floortension = 100
+tension =190;120
+tensionhigh = 160
+tensionlow = 25
+overdrawhigh = 100
+overdrawlow = 100
+cuthigh = 0
+cutlow = 0
+zoomin = 1.2
+zoomout = .42
+
+;--------------------------------------------------------
+[PlayerInfo]
+;--- Player 1 ---
+p1startx = -90          ;Starting x coordinates
+p1starty = 0            ;Starting y coordinates
+p1startz = 0            ;Starting z coordinates
+p1facing = 1            ;Direction player faces: 1=right, -1=left
+
+;--- Player 2 ---
+p2startx = 90
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+;--- Player 3 ---
+p3startx = -120
+p3starty = 0
+p3facing = 1
+
+;--- Player 4 ---
+p4startx =120
+p4starty = 0
+p4facing = -1
+
+;--- Common ---
+ ;Don't change these values.
+leftbound = -4000
+rightbound = 4000
+topbound = 0
+botbound = 0
+
+;--------------------------------------------------------
+[Bound]
+screenleft = 25
+screenright = 25
+
+;--------------------------------------------------------
+[StageInfo]
+zoffset = 199
+autoturn = 1
+resetBG = 0;1
+localcoord=384,216
+hires = 1
+
+;--------------------------------------------------------
+[Shadow]
+color = 26,26,26
+yscale = .20
+
+;--------------------------------------------------------
+[Music]
+bgmusic = sound/SNK.mp3
+bgmvolume = 230
+
+
+
+;================================================================================
+;================================================================================
+[bgdef]
+spr =(AOT) PRISON ROOF.sff
+debugbg =1
+
+
+
+
+
+;;;;;====LensFlare==============
+[bg niebla]
+type  = normal
+spriteno = 10,1
+start = 0,-504
+delta = .9,1.45
+mask = 1
+scalestart=0.5,0.5
+tile=1,0
+velocity=.3,0
+
+[BG  building]
+type  = normal
+spriteno = 10,4
+start =0,0
+mask = 1
+scalestart=0.5,0.5
+
+
+;===========================
+
+;========================================
+
+
+;========================================
+;A Ground
+;========================================
+
+;----------------------
+[BG  ground]
+type  = normal
+spriteno = 0,1
+start =0,369
+mask = 1
+scalestart=0.5,0.5
+tile=1,0
+delta =2,2
+
+
+;=================================
+;anim
+;=================================
+
+
+[Begin Action 9]
+10,1, 0,0, 10
+
+
+[Begin Action 10]
+interpolate blend
+10,4, 0,0, 175, , AS256D0
+interpolate blend
+10,4, 0,0, 150, , AS196D0
+interpolate blend
+10,4, 0,0, 120, , AS256D0
+interpolate blend
+10,4, 0,0, 80, , AS256D0
+interpolate blend
+10,4, 0,0, 70, , AS64D0
+interpolate blend
+10,4, 0,0, 120, , AS196D0
+interpolate blend
+10,4, 0,0, 150, , AS128D0
+interpolate blend
+10,4, 0,0, 130, , AS224D0
+
+

@@ -1,0 +1,364 @@
+[Statedef 100000]
+type = A
+movetype = A
+sprpriority = 999999
+
+[state ]
+type = playsnd
+trigger1 = animelem = 2
+value = 0,1
+Channel = 13
+
+[State ]
+type = velset
+trigger1 = animelem = 1
+x = 8
+y = 4
+
+[state ]
+type = Changeanim
+trigger1 = anim != 3996
+value = 3996
+
+[State ]
+type = velset
+trigger1 = animelem = 1,=6
+x = 0
+y = 0
+
+[State ]
+type = velset
+trigger1 = animelem = 8
+trigger2 = animelem = 9
+x = -4
+
+[state ]
+type = playsnd
+trigger1 = animelem = 7
+value = 0,2
+Channel = 10
+
+[State ]
+type = projectile
+trigger1 = animelem = 7
+projanim = 4030
+postype = p1
+projremovetime = 38
+velocity = -4,0
+projscale = -2,2
+sparkno = -1
+ID = 100
+attr = S,NA
+hitsound = s100,1
+projedgebound = 300
+projstagebound = 400
+projheightbound = -600,300
+damage = 1,1
+guardflag = A
+offset = 30,4
+projhits = 999
+
+[State ]
+type = Changestate
+trigger1 = backedgebodydist < -200
+value = 100001
+
+[Statedef 100001]
+type = A
+movetype = A
+
+[State ]
+type = destroyself
+trigger1 = 1
+
+[Statedef 100002]
+type = A
+movetype = A
+sprpriority = 999999
+
+[state ]
+type = playsnd
+trigger1 = animelem = 2
+value = 0,1
+Channel = 11
+
+[State ]
+type = velset
+trigger1 = animelem = 1
+x = 4
+y = 8
+
+[state ]
+type = Changeanim
+trigger1 = anim != 3997
+value = 3997
+
+[State ]
+type = velset
+trigger1 = animelem = 1,=6
+x = 0
+y = 0
+
+[State ]
+type = velset
+trigger1 = animelem = 8
+trigger2 = animelem = 9
+y = -4
+
+[state ]
+type = playsnd
+trigger1 = animelem = 7
+value = 0,2
+Channel = 12
+
+[State ]
+type = projectile
+trigger1 = animelem = 7
+projanim = 4031
+postype = p1
+projremovetime = 38
+velocity = 0,-4
+projscale = 2,2
+sparkno = -1
+attr = S,NA
+ground.type = low
+ID = 100
+hitsound = s100,1
+damage = 1,1
+guardflag = A
+offset = 0,20
+projhits = 999
+projedgebound = 300
+projstagebound = 400
+projheightbound = -600,300
+
+[State ]
+type = Changestate
+trigger1 = pos Y < -350
+value = 100001
+
+[Statedef 100003]
+type = A
+movetype = A
+sprpriority = 999999
+
+[state ]
+type = Changeanim
+trigger1 = anim != 3997
+value = 3997
+[State ]
+type = Changestate
+trigger1 = time = 150
+value = 100001
+
+[Statedef 100004]
+type = A
+movetype = A
+sprpriority = 999999
+
+[State ]
+type = angleset
+trigger1 = animelem = 1
+value = 180
+
+[State ]
+type = angleadd
+trigger1 = 1
+value = -18
+
+[state ]
+type = playsnd
+trigger1 = animelem = 2
+value = 0,1
+Channel = 13
+
+[State ]
+type = velset
+trigger1 = animelem = 1
+x = 8
+y = 4
+
+[state ]
+type = Changeanim
+trigger1 = anim != 3999
+value = 3999
+
+[State ]
+type = velset
+trigger1 = animelem = 1,=6
+x = 0
+y = 0
+
+[State ]
+type = velset
+trigger1 = animelem = 8
+trigger2 = animelem = 9
+x = -4
+
+[state ]
+type = playsnd
+trigger1 = animelem = 7
+value = 0,2
+Channel = 10
+
+[State ]
+type = projectile
+trigger1 = animelem = 7
+projanim = 4030
+postype = p1
+projremovetime = 38
+velocity = -4,0
+projscale = -2,2
+sparkno = -1
+ID = 100
+attr = S,NA
+hitsound = s100,1
+projedgebound = 300
+projstagebound = 400
+projheightbound = -600,300
+damage = 1,1
+guardflag = A
+offset = 40,10
+projhits = 999
+
+[State ]
+type = Changestate
+trigger1 = backedgebodydist < -200
+value = 100001
+
+[Statedef 100005]
+type = A
+movetype = A
+sprpriority = 999999
+
+[State ]
+type = angleadd
+trigger1 = animelem = 1,=[0,10]
+value = 18
+
+[state ]
+type = playsnd
+trigger1 = animelem = 2
+value = 0,1
+Channel = 13
+
+[State ]
+type = velset
+trigger1 = animelem = 1
+x = 4
+y = 4
+
+[state ]
+type = Changeanim
+trigger1 = anim != 3997
+value = 3997
+
+[State ]
+type = velset
+trigger1 = animelem = 1,=6
+x = 0
+y = 0
+
+[State ]
+type = velset
+trigger1 = animelem = 8
+trigger2 = animelem = 9
+y = -8
+
+[state ]
+type = playsnd
+trigger1 = animelem = 7
+value = 0,2
+Channel = 10
+
+[State ]
+type = projectile
+trigger1 = animelem = 7
+projanim = 4032
+postype = p1
+projremovetime = 38
+velocity = -4,-4
+projscale = -2,2
+sparkno = -1
+ID = 100
+attr = S,NA
+hitsound = s100,1
+projedgebound = 300
+projstagebound = 400
+projheightbound = -600,300
+damage = 1,1
+guardflag = A
+offset = 0,20
+projhits = 999
+
+[State ]
+type = Changestate
+trigger1 = time = 100
+value = 100001
+
+[Statedef 100006]
+type = A
+movetype = A
+sprpriority = 999999
+
+[state ]
+type = playsnd
+trigger1 = animelem = 2
+value = 0,1
+Channel = 13
+
+[State ]
+type = velset
+trigger1 = animelem = 1
+x = 4
+y = 4
+
+[state ]
+type = Changeanim
+trigger1 = anim != 3994
+value = 3994
+
+[State ]
+type = velset
+trigger1 = animelem = 1,=6
+x = 0
+y = 0
+
+[State ]
+type = velset
+trigger1 = animelem = 8
+trigger2 = animelem = 9
+y = -8
+
+[state ]
+type = playsnd
+trigger1 = animelem = 7
+value = 0,2
+Channel = 10
+
+[State ]
+type = projectile
+trigger1 = animelem = 7
+projanim = 4033
+postype = p1
+projremovetime = 38
+velocity = -4,-5
+projscale = -2,2
+sparkno = -1
+ID = 100
+attr = S,NA
+hitsound = s100,1
+projedgebound = 300
+projstagebound = 400
+projheightbound = -600,300
+damage = 1,1
+guardflag = A
+offset = 40,10
+projhits = 999
+
+[State ]
+type = Changestate
+trigger1 = time = 100
+value = 100001
+
+

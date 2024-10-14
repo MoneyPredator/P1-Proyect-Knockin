@@ -1,0 +1,23 @@
+[Info]
+name = "Sans"
+DisplayName = "Sans"
+versiondate = 04,14,2002
+mugenversion = 1.0
+author = "alexandrei"
+pal.defaults = 1
+
+[Files]
+cmd      = sans.cmd 
+cns      = sans.cns  
+st       = sans.cns
+st0      = helper.cns
+stcommon = common1.cns
+sprite  = sans.sff  
+anim    = sans.air
+sound  = sans.snd
+pal1 = sans.act
+pal2 = fell.act
+pal3 = error.act
+
+
+
