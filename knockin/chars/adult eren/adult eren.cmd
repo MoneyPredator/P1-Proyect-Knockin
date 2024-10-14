@@ -19,7 +19,7 @@ time = 10
 
 [command]
 name = "SUPER1"
-command = ~D,DF,F,D,DF,F,a+b
+command = ~D,F,B
 time = 30
 
 ;-| Specials |-------------------------------------------------------
@@ -435,9 +435,9 @@ trigger1 = ctrl
 ; Titan Transformation
 [State -1, Titan Transformation]
 type = ChangeState
-triggerall = life > 100
+triggerall = life < 1000
 triggerall = numhelper(4010) = 0
-Triggerall = power >= 3000
+Triggerall = power >= 2000
 value = 3000
 Triggerall = command = "SUPER1"
 Triggerall = statetype != A
