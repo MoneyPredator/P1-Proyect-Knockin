@@ -12,7 +12,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1000
-poweradd = -10
+poweradd = -1000
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -45,7 +45,7 @@ supermove = 1
 removetime = -2
 bindtime = 1
 ownpal = 1
-scale = 0.75,0.75
+scale = 1,1
 removeongethit = 1
 ontop = 1
 supermovetime 	= 999
@@ -87,7 +87,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1100
-poweradd = -10
+poweradd = -500
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -201,7 +201,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1200
-poweradd = -10
+poweradd = -2000
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -295,6 +295,7 @@ physics = N
 juggle  = 1
 velset = 0,0
 ctrl = 0
+poweradd = -2500
 anim = 100
 sprpriority = -1
 
@@ -347,6 +348,7 @@ movetype= I
 physics = N
 juggle  = 1
 velset = 0,0
+poweradd = -2000
 anim = 9999
 
 [State 0, PlaySnd]
@@ -401,7 +403,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1300
-poweradd = -5
+poweradd = -2200
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -466,7 +468,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 100
-poweradd = -5
+poweradd = -500
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -592,7 +594,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1400
-poweradd = -2
+poweradd = -2000
 
 [State 0, Pausa Dramatica]
 type = Helper
@@ -800,7 +802,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 1500
-poweradd = -1
+poweradd = -3000
 sprpriority = 2
 
 [State 0, PlaySnd]
@@ -986,7 +988,7 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 0
-poweradd = 500
+poweradd = -3000
 sprpriority = 2
 
 [State 0, Helper]
@@ -1241,7 +1243,7 @@ projshadow = -1
 offset = 0,Random%5
 velocity = 15
 attr = S, SP
-damage   = 15,1
+damage   = 50,20
 animtype = heavy
 guardflag = MA
 hitflag = MAFDP

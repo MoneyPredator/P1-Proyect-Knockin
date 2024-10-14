@@ -12,8 +12,8 @@ juggle  = 1
 velset = 0,0
 ctrl = 0
 anim = 3000
-poweradd = -5
-sprpriority = 2
+poweradd = -1500
+sprpriority = 3
 
 [State 0, Voice]
 type = PlaySnd
@@ -214,7 +214,7 @@ type = HitDef
 trigger1 = time >= 30
 attr = A, HP
 animtype  = Heavy
-damage    = 20,2
+damage    = 10,2
 Hitflag = MAFDE
 guardflag = MA
 pausetime = 0,9
