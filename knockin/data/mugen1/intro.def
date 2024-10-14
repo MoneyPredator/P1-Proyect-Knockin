@@ -1,13 +1,13 @@
 [Info]
 name = "Nombre de la Intro"
-author = "zopotamadre290@gmail.com"
-versiondate = 09-09-2024
-mugenversion = 1.1 Beta 1
+author = "Creador"
+versiondate = 27-07-2019
+mugenversion = 1.0
 localcoord = 1280,720
 
 ;------------------------------------
 [SceneDef]
-spr = intro.sff
+spr =intro.sff
 
 ;------------------------------------
 [Scene 0]
@@ -38,7 +38,7 @@ layer5.offset = 0,0
 bgm =intro.mp3
 bgm.loop = 1
 ; Total time
-end.time = 226
+end.time =228
 
 ;------------------------------------
 ;Animation for intro
@@ -159,3 +159,4 @@ end.time = 226
 1,110, 0,0, 2
 1,111, 0,0, 2
 1,112, 0,0, 2
+1,113, 0,0, 2
