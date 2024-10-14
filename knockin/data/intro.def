@@ -3,7 +3,7 @@ name = "Nombre de la Intro"
 author = "zopotamadre290@gmail.com"
 versiondate = 09-09-2024
 mugenversion = 1.1 Beta 1
-localcoord = 1920,1080
+localcoord = 1280,720
 
 ;------------------------------------
 [SceneDef]
