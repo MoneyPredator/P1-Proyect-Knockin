@@ -1,12 +1,12 @@
-﻿;===============================
+;===============================
 ; Rugal's constants
 ;===============================
 
 [Data]
 life              = 2000
 power             = 5000
-attack            = 250
-defence           = 200
+attack            = 165
+defence           = 80
 fall.defence_up   = 50
 liedown.time      = 50
 airjuggle         = 15
@@ -18,8 +18,8 @@ intpersistindex   = 5,20
 floatpersistindex = 40
 
 [Size]
-xscale = 1                  ;Horizontal scaling factor.
-yscale = 1                  ;Vertical scaling factor.
+xscale = 0.8             ;Horizontal scaling factor.
+yscale = 0.8                  ;Vertical scaling factor.
 ground.back = 16            ;Player width (back, ground)
 ground.front = 15           ;Player width (front, ground)
 air.back = 12               ;Player width (back, air)

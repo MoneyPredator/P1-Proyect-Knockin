@@ -74,7 +74,6 @@ kfm, stages/kfm.def
 kfm720, stages/kfm.def
 Moonman, stages/kfm.def
 Donald_BK, stages/kfm.def
-Iori Yagami-KOFM, stages/kfm.def, order=2 , music=sound/E S E N C I A.mp3
 yujiro, stages/kfm.def
 BrolyNormal, stages/[DBFZ]Cell_Games.def
 Omega Rugal 2002-KOFM, stages/kfm.def
