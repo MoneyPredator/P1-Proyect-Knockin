@@ -1,0 +1,42 @@
+;  homero j. simpson   versión latinoamérica 3.5 BY wARNER
+; --------------------------------------------------------
+
+; player information
+[info]
+name    ="Homero J Simpson"
+displayname ="Homero J Simpson"
+versiondate =07,28,2003
+mugenversion =14,04,2002
+author ="Warner- H"
+pal.defaults=1,2,3,4,5,6,7,8,9,10,11,12
+
+; files for the player
+[files]
+cmd     =homero_j.cmd
+cns     =homero.cns
+st      =homero.cns
+stcommon =simpson-common.cns
+sprite  =homero.sff
+anim    =homero.air
+sound   =homero.snd
+pal1=homero.act
+pal2=homerob.act
+pal3=homeroc.act
+pal4=homerod.act
+pal5=homeroe.act
+pal6=homerof.act
+pal7=homerog.act
+pal8=homeroh.act
+pal9=homeroi.act
+pal10=homeroj.act
+pal11=homerok.act
+pal12=homerol.act
+st1=homero-e.cns
+st2=homero-s.cns
+st3=simpson-common.cns
+
+
+
+[Arcade]
+intro.storyboard=
+ending.storyboard=

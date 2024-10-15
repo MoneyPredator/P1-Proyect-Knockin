@@ -223,14 +223,14 @@ _
 [Select Info]
 fadein.time = 10
 fadeout.time = 10
-rows = 4
-columns = 3
+rows = 10
+columns = 4
 wrapping = 0              ;1 to let cursor wrap around
 pos = 480,128             ;Position to draw to
-showemptyboxes = 1        ;1 to show empty boxes
-moveoveremptyboxes = 1    ;1 to allow cursor to move over empty boxes
-cell.size = 100,100       ;x,y size of each cell (in pixels)
-cell.spacing = 10         ;Space between each cell
+showemptyboxes = 0        ;1 to show empty boxes
+moveoveremptyboxes = 0    ;1 to allow cursor to move over empty boxes
+cell.size = 50,50       ;x,y size of each cell (in pixels)
+cell.spacing = 50         ;Space between each cell
 cell.bg.spr = 150,0       ;Note: Don't use animation for cells
 cell.random.spr = 151,0   ;Icon for random select (don't use animation)
 cell.random.switchtime = 4;Time to wait before changing to another random portrait
