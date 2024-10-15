@@ -80,7 +80,9 @@ Omega Rugal 2002-KOFM, stages/kfm.def
 Guts, stages/Berserk Eclipse Stage.def,order=1, music=sound/Berserk OST.mp3
 adult eren, stages/(AOT) PRISON ROOF.def
 sans,stages/lastcorridor.def
-CJ,stages/kfm.def
+CJ,stages/stages/Grove Street SA.def
+
+
 
 
 ;-----------------------
@@ -92,6 +94,7 @@ stages/Berserk Eclipse Stage.def
 stages/[DBFZ]Cell_Games.def
 stages/(AOT) PRISON ROOF.def
 stages/lastcorridor.def
+stages/Grove Street SA.def
 
 ;---------------------------------------------------------------------
 [Options]

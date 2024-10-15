@@ -2,10 +2,10 @@
 ;---------------- Constantes y Ataques normales--------------------------------------------
 ;===================================================================================
 [Data]
-life = 1500
-power = 3000
-attack = 100
-defence = 250
+life = 1000
+power = 5000
+attack = 77
+defence = 200
 fall.defence_up = 50
 liedown.time = 50
 airjuggle = 15

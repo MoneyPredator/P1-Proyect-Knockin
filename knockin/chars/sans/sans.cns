@@ -2,7 +2,7 @@
 [Data]
 life = 1
 power = 3000
-attack = 100
+attack = 120
 defence = 100
 fall.defence_up = 50
 liedown.time = 20

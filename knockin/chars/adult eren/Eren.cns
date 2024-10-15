@@ -14,10 +14,10 @@
 ; - FVar(16) = ESCALA
 
 [Data]
-life = 1200
+life = 1000
 power = 4000
 attack = 100
-defence = 100
+defence = 200
 fall.defence_up = 50
 liedown.time = 60
 airjuggle = 15
