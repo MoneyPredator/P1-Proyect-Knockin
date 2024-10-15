@@ -35,8 +35,8 @@
     <config name="iconset" value=""/>
     <config name="language" value="en-us"/>
     <config name="last_mugen" value=""/>
-    <config name="main_axis_x" value="371"/>
-    <config name="main_axis_y" value="401"/>
+    <config name="main_axis_x" value="441"/>
+    <config name="main_axis_y" value="295"/>
     <config name="main_toolbar" value="4"/>
     <config name="max_history" value="30"/>
     <config name="mugen_0_exe" value="C:/Users/santi/Desktop/P1/knockin/knockin/mugen.exe"/>
@@ -46,7 +46,7 @@
     <config name="onion_effect" value="1"/>
     <config name="onion_opacity" value="80"/>
     <config name="preset" value="Classic"/>
-    <config name="proj_path" value="C:/Users/santi/Desktop/P1/knockin/knockin/chars/BrolyNormal"/>
+    <config name="proj_path" value="C:/Users/santi/Desktop/P1/knockin/knockin/chars/Omega Rugal 2002-KOFM"/>
     <config name="quicksearch_back" value="false"/>
     <config name="quicksearch_case" value="false"/>
     <config name="quicksearch_circular" value="false"/>
@@ -74,7 +74,7 @@
     <config name="show_sctrl_list" value="true"/>
     <config name="show_spr_cross" value="true"/>
     <config name="show_text_bar" value="false"/>
-    <config name="show_trans_color" value="false"/>
+    <config name="show_trans_color" value="true"/>
     <config name="snd_path" value=""/>
     <config name="sort_file_names" value="true"/>
     <config name="spr_path" value="C:/Users/santi/Pictures"/>
@@ -93,6 +93,6 @@
     <config name="window_top" value="23"/>
     <config name="window_width" value="1366"/>
     <config name="zoom_center" value="0"/>
-    <config name="zoom_level" value="0"/>
+    <config name="zoom_level" value="3"/>
     <config name="zoom_mode" value="1"/>
 </configuration>
