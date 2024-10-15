@@ -193,7 +193,7 @@ type = HitDef
 trigger1 = AnimElem = 4
 attr = S, NA
 animtype = hard
-damage = 38
+damage = 45
 guardflag = MA
 hitflag = MAF
 pausetime = 12,13

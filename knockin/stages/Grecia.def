@@ -1,0 +1,414 @@
+;--------------------------------------------------------
+;--------------------------------------------------------
+;         Sprites by Cosumo
+:           close source
+===================================================
+[Info]
+ ;Name of the stage.
+name = "Grecia KOF"
+
+;--------------------------------------------------------
+[Camera]
+startx = 0
+starty = 0
+boundleft = -200
+boundright = 176
+boundhigh = 0
+boundlow = 0
+verticalfollow = .2
+floortension = 0
+tension = 60
+
+
+;--------------------------------------------------------
+[PlayerInfo]
+p1startx = -70    
+p1starty = 0  
+p1startz = 0    
+p1facing = 1  
+
+
+p2startx = 70
+p2starty = 0
+p2startz = 0
+p2facing = -1
+
+
+leftbound  = -1000
+rightbound =  1000
+topbound  =  0 
+botbound  =  0 
+
+;--------------------------------------------------------
+[Scaling]
+topz     = 0   
+botz     = 50 
+topscale = 1
+botscale = 1.2  
+
+;--------------------------------------------------------
+[Bound]
+screenleft = 15  
+screenright = 15   
+
+;--------------------------------------------------------
+[StageInfo]
+zoffset = 220
+autoturn = 1
+resetBG = 1
+hires = 0
+
+;--------------------------------------------------------
+[Shadow]
+intensity = 64
+color = 90,90,90
+yscale = .4
+fade.range = -400,-100
+
+;--------------------------------------------------------
+[Reflection]
+intensity = 0
+
+;--------------------------------------------------------
+[Music]
+bgmusic = sound/Rugal.mp3
+bgvolume = 700
+
+;========================================================
+
+[BGdef]
+spr = stages/Grecia.sff
+debugbg = 0
+
+
+;--------------------------------------------------------
+[BG cielo]
+type = normal
+spriteno = 0,4
+start = 0, 0
+delta = 0.8, 0.8
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG athena]
+type = normal
+spriteno = 2,0
+start = 0, 7
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG LUZ 3]
+type = anim
+actionno= 3
+start = 0,0
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+
+[Begin Action 3]
+3,0, 0,0, 100,,A
+3,1, 0,0, 8,,A
+3,2, 0,0, 8,,A
+3,3, 0,0, 8,,A
+3,4, 0,0, 100,,A
+3,3, 0,0, 8,,A
+3,2, 0,0, 8,,A
+3,1, 0,0, 8,,A
+-1,-1,0,0,8
+;--------------------------------------------------------
+[BG LUZ 3]
+type = anim
+actionno= 3
+start = -175,65
+delta = 0.7, 0.7
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+
+[Begin Action 3]
+3,0, 0,0, 3,,A
+-1,-1,0,0,3
+;--------------------------------------------------------
+[BG agua]
+type = anim
+actionno= 1
+start = 0,20
+delta = 0.8, 0.8
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+
+[Begin Action 1]
+1,0, 0,0, 6
+1,1, 0,0, 6
+1,2, 0,0, 6
+1,3, 0,0, 6
+1,4, 0,0, 6
+1,5, 0,0, 6
+1,4, 0,0, 6
+1,3, 0,0, 6
+1,2, 0,0, 6
+1,1, 0,0, 6
+;--------------------------------------------------------
+[BG negro]
+type = normal
+spriteno = 0,1
+start = 0, 19
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG coliseo1]
+type = normal
+spriteno = 15,0
+start = 0, 18
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG coliseo2]
+type = normal
+spriteno = 15,1
+start = 0, 18
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG coliseo3]
+type = normal
+spriteno = 15,2
+start = 0, 18
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG coliseo4]
+type = normal
+spriteno = 15,3
+start = 0, 18
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG coliseo5]
+type = normal
+spriteno = 15,4
+start = 0, 18
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG coliseo6]
+type = normal
+spriteno = 15,5
+start = 0, 18
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG piso]
+type = normal
+spriteno = 0,0
+start = 0, 0
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+
+;--------------------------------------------------------
+[BG baranda]
+type = normal
+spriteno = 0,5
+start = 0, 0
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG monos1]
+type = anim
+actionno= 9
+start = 0,20
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+
+[Begin Action 9]
+9,0, 0,0, 15,
+9,1, 0,0, 15,
+;--------------------------------------------------------
+[BG monos2]
+type = anim
+actionno= 12
+start = 0,20 
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+
+[Begin Action 12]
+12,0, 0,0, 13,
+12,1, 0,0, 13,
+;--------------------------------------------------------
+[BG monos3]
+type = normal
+spriteno = 10,0
+start = 0, 18
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG monos2]
+type = normal
+spriteno = 11,0
+start = 0, 18
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG krauser]
+type = anim
+actionno= 7
+start = 0,17
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+
+[Begin Action 7]
+7,0, 0,0, 30,
+7,1, 0,0, 15,
+;--------------------------------------------------------
+[BG freman]
+type = anim
+actionno= 5
+start = 0,20
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+
+[Begin Action 5]
+5,0, 0,0, 40,
+5,1, 0,0, 10,
+;--------------------------------------------------------
+[BG espada]
+type = anim
+actionno= 4
+start = 0,17
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+
+[Begin Action 4]
+4,0, 0,0, 40,
+4,1, 0,0, 16,
+;--------------------------------------------------------
+[BG gordis]
+type = anim
+actionno= 6
+start = 0,13
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+
+[Begin Action 6]
+6,0, 0,0, 100,
+6,1, 0,0, 20,
+;--------------------------------------------------------
+[BG mamado]
+type = normal
+spriteno = 8,0
+start = 0, 13
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+;--------------------------------------------------------
+[BG tizoc]
+type = anim
+actionno= 13
+start = 0,17
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0
+
+[Begin Action 13]
+13,0, 0,0, 15,
+13,1, 0,0, 15,
+;--------------------------------------------------------
+[BG kain]
+type = normal
+spriteno = 14,0
+start = 0, 13
+delta = 0.9, 0.9
+mask = 1
+trans = none
+layerno = 0
+velocity = 0,0
+tile = 0,0

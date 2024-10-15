@@ -76,11 +76,12 @@ Moonman, stages/kfm.def
 Donald_BK, stages/kfm.def
 yujiro, stages/kfm.def
 BrolyNormal, stages/[DBFZ]Cell_Games.def
-Omega Rugal 2002-KOFM, stages/kfm.def
+Omega Rugal 2002-KOFM, stages/Grecia.def
 Guts, stages/Berserk Eclipse Stage.def,order=1, music=sound/Berserk OST.mp3
 adult eren, stages/(AOT) PRISON ROOF.def
 sans,stages/lastcorridor.def
 CJ,stages/stages/Grove Street SA.def
+Naruto Sage, stages/valley_of_the_end.def
 
 
 
@@ -95,6 +96,10 @@ stages/[DBFZ]Cell_Games.def
 stages/(AOT) PRISON ROOF.def
 stages/lastcorridor.def
 stages/Grove Street SA.def
+stages/Grecia.def
+stages/Sonson2.def
+stages/valley_of_the_end.def
+
 
 ;---------------------------------------------------------------------
 [Options]

@@ -1632,7 +1632,7 @@ hitflag = MAF
 animtype = hard
 air.animtype = back
 fall.animtype = back
-damage = 51
+damage = 65
 guardflag = MA
 pausetime = 12,13
 guard.pausetime = 12,11
@@ -2558,7 +2558,7 @@ channel = 0
 type = HitDef
 trigger1 = time = 0
 attr = S, NA
-damage = 67
+damage = 70
 hitflag = MAF
 guardflag = MA
 animtype = Hard
