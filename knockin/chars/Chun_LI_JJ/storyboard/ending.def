@@ -1,0 +1,431 @@
+﻿;----------------------------------------------------------
+[Info]
+localcoord = 1280,720
+
+[SceneDef]
+spr = story.sff
+font0 = f-6x9.def
+font1 = name14.def
+font2 = enter48.def
+;snd = sound.snd
+;startscene=4
+
+[Scene 0]
+; Fade parameters
+fadein.time = 20       ;30 ticks (0.5 seconds) for fade-in
+fadeout.time = 10      ;30 ticks for fade-out
+; Layers
+layerall.pos = 0,720
+layer0.anim =  0
+layer0.offset = 0,0
+layer1.starttime= 0
+layer1.anim =  10
+layer1.offset = 0,-720
+layer2.starttime= 0
+layer2.anim =  1
+layer2.offset = 200,-110
+
+layer3.starttime= 21
+layer3.font = 1,0,1,220,220,220
+layer3.text = "Chun-Li: Finally! Back home. \nIt's been a long time since I left here."
+layer3.offset = 200,-80
+layer3.endtime = -1
+
+; Music
+bgm = bgm.mp3
+bgm.loop = 1
+bgm.loopstart= 645033
+bgm.loopend= -1
+bgm.volume= 100
+
+; Total time
+end.time = 300
+
+[Scene 1]
+; Fade parameters
+fadein.time = 20       ;30 ticks (0.5 seconds) for fade-in
+fadeout.time = 10      ;30 ticks for fade-out
+; Layers
+layerall.pos = 0,720
+layer0.anim =  0
+layer0.offset = 0,0
+layer1.starttime= 0
+layer1.anim =  11
+layer1.offset = 0,-720
+layer2.starttime= 0
+layer2.anim =  2
+layer2.offset = 860,-140
+
+layer3.starttime= 21
+layer3.font = 1,0,1,220,220,220
+layer3.text = "Chun-Li: It's so strange, I have strong feeling \nthat I'm not belong to here:( \nWhy everything here is so unfamiliar."
+layer3.offset = 200,-140
+layer3.endtime = 500
+
+layer4.starttime= 501
+layer4.font = 1,0,1,220,220,220
+layer4.text = "Chun-Li: I need to find that guy ASAP."
+layer4.offset = 200,-140
+layer4.endtime = 720
+
+; Music
+;bgm = Soundbgs.mp3       ;Filename for music
+; Total time
+end.time = 720
+
+
+[Scene 2]
+; Fade parameters
+fadein.time = 20       ;30 ticks (0.5 seconds) for fade-in
+fadeout.time = 10      ;30 ticks for fade-out
+; Layers
+layerall.pos = 0,720
+layer0.anim =  0
+layer0.offset = 0,0
+layer1.starttime= 0
+layer1.anim =  12
+layer1.offset = 0,-720
+layer2.starttime= 0
+layer2.anim =  2
+layer2.offset = 940,-180
+layer2.endtime= 3300
+layer3.starttime= 0
+layer3.anim =  20
+layer3.offset = 0,-180
+
+layer4.starttime= 21
+layer4.font = 1,0,1,220,220,220
+layer4.text = "Akiman: WOW, look who is there. \nHow is it going my dear Chun-Li?"
+layer4.offset = 200,-120
+layer4.endtime = 400
+
+layer5.starttime= 401
+layer5.font = 1,0,1,220,220,220
+layer5.text = "Chun-Li: Great but something is confusing me \nand I can't walk out from that shadow. \nOnly you can give me the right answer."
+layer5.offset = 400,-120
+layer5.endtime = 800
+
+layer6.starttime= 801
+layer6.font = 1,0,1,220,220,220
+layer6.text = "Akiman: OOooo? what's that?"
+layer6.offset = 200,-120
+layer6.endtime = 920
+
+layer7.starttime= 921
+layer7.font = 1,0,1,220,220,220
+layer7.text = "Chun-Li: What's my surname? "
+layer7.offset = 400,-120
+layer7.endtime = 1100
+
+layer8.starttime= 1101
+layer8.font = 1,0,1,220,220,220
+layer8.text = "Akiman: ... Is that really important? \nEverybody loves you that's enought"
+layer8.offset = 200,-120
+layer8.endtime = 1400
+
+layer9.starttime= 1401
+layer9.font = 1,0,1,220,220,220
+layer9.text = "Chun-Li: It is important! You've designed \nmy main story that is to revanage \nmy farther's death but I even don't know \nmy farther's name?"
+layer9.offset = 400,-120
+layer9.endtime = 2000
+
+layer10.starttime= 2001
+layer10.font = 1,0,1,220,220,220
+layer10.text = "Akiman:I'm sorry dear, but \nthere were no design for your father \nlike name or figure, \nso you don't have a surname officially. "
+layer10.offset = 200,-120
+layer10.endtime = 2500
+
+layer11.starttime= 2501
+layer11.font = 1,0,1,220,220,220
+layer11.text = "Chun-Li: Can I have one? \nand a designed father?"
+layer11.offset = 400,-120
+layer11.endtime = 2800
+
+layer12.starttime= 2801
+layer12.font = 1,0,1,220,220,220
+layer12.text = "Akiman:Yeah but you may need to wait for long, \nI still have lots of jobs to do and that takes efforts. \nCAPCOM won't gonna approve it."
+layer12.offset = 200,-120
+layer12.endtime = 3300
+
+layer13.starttime= 3301
+layer13.font = 1,0,1,220,220,220
+layer13.text = "Chun-Li: Why it's getting so complex! \n*Crying......*"
+layer13.offset = 400,-120
+layer13.endtime = 3600
+
+layer14.starttime= 3601
+layer14.font = 1,0,1,220,220,220
+layer14.text = "Akiman:This is how a big Company work. \nSorry you are a out-dated character. \nThey won't allow me the take more time on you."
+layer14.offset = 200,-120
+layer14.endtime = 4200
+
+layer15.starttime= 3301
+layer15.anim =  3
+layer15.offset = 1280,-180
+layer15.endtime= -1
+
+layer16.starttime= 4201
+layer16.font = 1,0,1,220,220,220
+layer16.text = "*Crying......*"
+layer16.offset = 400,-120
+layer16.endtime = 4400
+
+; Music
+; bgm = mysong.s3m       ;Filename for music
+; Total time
+end.time = 4500
+
+[Scene 3]
+; Fade parameters
+fadein.time = 20       ;30 ticks (0.5 seconds) for fade-in
+fadeout.time = 10      ;30 ticks for fade-out
+; Layers
+layerall.pos = 0,720
+layer0.anim =  0
+layer0.offset = 0,0
+layer1.starttime= 0
+layer1.anim =  11
+layer1.offset = 0,-720
+layer2.starttime= 0
+layer2.anim =  3
+layer2.offset = 1280,-174
+layer2.endtime= 2000
+layer3.starttime= 60
+layer3.anim =  21
+layer3.offset = 0,-174
+layer3.endtime= 2020
+
+layer4.starttime= 81
+layer4.font = 1,0,1,220,220,220
+layer4.text = "Omar Dogan: Chun-Li! are you allright?"
+layer4.offset = 200,-140
+layer4.endtime = 400
+
+layer5.starttime= 401
+layer5.font = 1,0,1,220,220,220
+layer5.text = "Chun-Li: Who are you?"
+layer5.offset = 400,-140
+layer5.endtime = 600
+
+layer6.starttime= 601
+layer6.font = 1,0,1,220,220,220
+layer6.text = "Omar Dogan: I'm Omar Dogan! Your fan from canada :)\nActurally You don't need to be so sad. \nYou still have us - Your loyal fans. \nAlthough CAPCOM is so busy at makeing their money, \nyou can still have your new comic books \nand playable games released in unofficial way. \nWe are here to support you and we LOVE you!"
+layer6.offset = 200,-140
+layer6.endtime = 2000
+
+layer7.starttime= 2021
+layer7.anim =  22
+layer7.offset = 0,-174
+layer7.endtime= -1
+layer8.starttime= 2001
+layer8.anim =  4
+layer8.offset = 300,-140
+layer8.endtime= -1
+
+layer9.starttime= 2021
+layer9.font = 1,0,1,220,220,220
+layer9.text = "Chun-Li: Thank you !! I Love you guys all too !!!!"
+layer9.offset = 400,-140
+layer9.endtime = -1
+
+end.time = 2500
+
+
+
+[Scene 4]
+; Fade parameters
+fadein.time = 20       ;30 ticks (0.5 seconds) for fade-in
+fadeout.time = 10      ;30 ticks for fade-out
+
+; Layers
+layerall.pos = 0,720
+layer0.anim =  0
+layer0.offset = 0,0
+
+layer1.starttime=60
+layer1.font = 1,0,0,220,220,220
+layer1.text = "Credit\n\n\n\n\n\nBeterHans - Main Character Coder\n\nFeLo_Llop - Sprites artist\n\nGM - I learned many things from his charactor\n\nOmar_Dogan - Protrait Pictures artist\n\neL_HiNO - Protrait Pictures artist\n\npooper - Protrait Pictures artist\n\nLi_Kun - Sprites artist\n\nBrokenClavicleHD - SF33 Guarding system codes\n\nElzee - he told me the basic things\n\nFishbed - method of AI jumping\n\nWinane - AI activation codes but no longer needed\n\nShiki Dan - SF33 data\n\nIonela19 - BG Picture\n\n\n\n\n\nand...."
+layer1.offset = 640,-640
+layer1.endtime = 1600
+
+layer2.starttime=1601
+layer2.font = 1,0,0,220,220,220
+layer2.text = "P.O.T.S	- All things started from this guy.\n\nAkira Yasuda - Chun-Li's Original Designer\n\n\n\n\n\nYou - Thanks for playing\n"
+layer2.offset = 640,-400
+layer2.endtime = 2400
+
+
+
+end.time = 2400
+
+;<Animation>
+[Begin Action 0] ; Black
+0,1, 0,0, -1
+
+[Begin Action 1] ; ChunLi Standing
+11,0, -200,0 ,2
+11,0, -190,0 ,2
+11,0, -180,0 ,2
+11,0, -170,0 ,2
+11,0, -160,0 ,2
+11,0, -150,0 ,2
+11,0, -140,0 ,2
+11,0, -130,0 ,2
+11,0, -120,0 ,2
+11,0, -110,0 ,2
+11,0, -100,0 ,2
+11,0, -090,0 ,2
+11,0, -080,0 ,2
+11,0, -070,0 ,2
+11,0, -060,0 ,2
+11,0, -050,0 ,2
+11,0, -040,0 ,2
+11,0, -030,0 ,2
+11,0, -020,0 ,2
+11,0, -010,0 ,2
+11,0, 0,0 ,-1
+
+[Begin Action 2] ; ChunLi Thinking
+1,0, 500,0 ,1
+1,0, 484,0 ,1
+1,0, 468,0 ,1
+1,0, 452,0 ,1
+1,0, 436,0 ,1
+1,0, 420,0 ,1
+1,0, 404,0 ,1
+1,0, 388,0 ,1
+1,0, 372,0 ,1
+1,0, 356,0 ,1
+1,0, 340,0 ,1
+1,0, 324,0 ,1
+1,0, 308,0 ,1
+1,0, 292,0 ,1
+1,0, 276,0 ,1
+1,0, 260,0 ,1
+1,0, 244,0 ,1
+1,0, 228,0 ,1
+1,0, 212,0 ,1
+1,0, 196,0 ,1
+1,0, 180,0 ,1
+1,0, 164,0 ,1
+1,0, 148,0 ,1
+1,0, 132,0 ,1
+1,0, 116,0 ,1
+1,0, 100,0 ,1
+1,0, 084,0 ,1
+1,0, 068,0 ,1
+1,0, 052,0 ,1
+1,0, 036,0 ,1
+1,0, 020,0 ,1
+1,0, 004,0 ,1
+1,0, 000,0 ,-1
+
+[Begin Action 3] ; ChunLi crying
+13,0, 0,0, 80
+13,1, 0,0, 40
+13,2, 0,0, 12
+13,1, 0,0, 12
+13,2, 0,0, 12
+13,1, 0,0, 12
+
+[Begin Action 4] ; ChunLi Kissing
+14,0, 1000,0, 1
+14,0, 0950,0, 1
+14,0, 0900,0, 1
+14,0, 0850,0, 1
+14,0, 0800,0, 1
+14,0, 0750,0, 1
+14,0, 0700,0, 1
+14,0, 0650,0, 1
+14,0, 0600,0, 1
+14,0, 0550,0, 1
+14,0, 0500,0, 1
+14,0, 0450,0, 1
+14,0, 0400,0, 1
+14,0, 0350,0, 1
+14,0, 0300,0, 1
+14,0, 0250,0, 1
+14,0, 0200,0, 1
+14,0, 0150,0, 1
+14,0, 0100,0, 1
+14,0, 0050,0, 1
+14,0, 0000,0, -1
+
+[Begin Action 10] ; CAPCOM Office Door
+10,0, 0,0, -1
+
+[Begin Action 11] ; CAPCOM Office Lobby
+10,1, 0,0, -1
+
+[Begin Action 12] ; CAPCOM Office Meeting
+10,2, 0,0, -1
+
+[Begin Action 20] ; Akira_Yasuda
+12,0, -300,0, 1
+12,0, -290,0, 1
+12,0, -280,0, 1
+12,0, -270,0, 1
+12,0, -260,0, 1
+12,0, -250,0, 1
+12,0, -240,0, 1
+12,0, -230,0, 1
+12,0, -220,0, 1
+12,0, -210,0, 1
+12,0, -200,0, 1
+12,0, -190,0, 1
+12,0, -180,0, 1
+12,0, -170,0, 1
+12,0, -160,0, 1
+12,0, -150,0, 1
+12,0, -140,0, 1
+12,0, -130,0, 1
+12,0, -120,0, 1
+12,0, -110,0, 1
+12,0, -100,0, 1
+12,0, -090,0, 1
+12,0, -080,0, 1
+12,0, -070,0, 1
+12,0, -060,0, 1
+12,0, -050,0, 1
+12,0, -040,0, 1
+12,0, -030,0, 1
+12,0, -020,0, 1
+12,0, -010,0, 1
+12,0, 0000,0, -1
+
+[Begin Action 21] ; Omar Dogan
+12,1, -310,0, 2
+12,1, -300,0, 2
+12,1, -290,0, 2
+12,1, -280,0, 2
+12,1, -270,0, 2
+12,1, -260,0, 2
+12,1, -250,0, 2
+12,1, -240,0, 2
+12,1, -230,0, 2
+12,1, -220,0, 2
+12,1, -210,0, 2
+12,1, -200,0, 2
+12,1, -190,0, 2
+12,1, -180,0, 2
+12,1, -170,0, 2
+12,1, -160,0, 2
+12,1, -150,0, 2
+12,1, -140,0, 2
+12,1, -130,0, 2
+12,1, -120,0, 2
+12,1, -110,0, 2
+12,1, -100,0, 2
+12,1, -090,0, 2
+12,1, -080,0, 2
+12,1, -070,0, 2
+12,1, -060,0, 2
+12,1, -050,0, 2
+12,1, -040,0, 2
+12,1, -030,0, 2
+12,1, -020,0, 2
+12,1, -010,0, 2
+12,1, 0,0, -1
+
+[Begin Action 22] ; Omar Dogan 2
+12,2, 0,0, -1

@@ -1,0 +1,38 @@
+;***************************************************************************;
+;******************* created in fighter factory ultimate *******************;
+;*******************      http://www.virtualltek.com     *******************;
+;***************************************************************************;
+
+[info]
+name ="Evil Ken"
+displayname ="Don Ramon"
+versiondate =9/28/2007
+mugenversion = 
+author ="Mae77,LimitedMoon, slighly edited by omardapimp123"
+pal.defaults =1,2,3,4,5,6
+
+[files]
+sprite =ken.sff
+anim =ken.air
+sound =ken.snd
+cmd =ken.cmd
+cns =ken.cns
+stcommon =common1.cns
+st =ken.cns
+pal1=madruga.act
+pal2=madruga2.act
+pal3=madruga3.act
+pal4=madruga4.act
+pal5=madruga.act
+
+[arcade]
+intro.storyboard = 
+ending.storyboard = 
+
+
+
+
+
+
+
+
