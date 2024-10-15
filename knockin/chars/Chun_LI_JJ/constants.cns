@@ -1,0 +1,118 @@
+[Data]
+life = 1000			;Amount of life to start with
+power = 3000		;Amount of maximum power
+attack = 100		;attack power (more is stronger)
+defence = 100		;defensive power (more is stronger)
+fall.defence_up = 50	;Percentage to increase defense everytime player is knocked down
+liedown.time = 56		;Time which player lies down for, before getting up
+airjuggle = 9999999999999999999999999999999999999		;Number of points for juggling
+sparkno = 2			;Default hit spark number for HitDefs
+guard.sparkno = 40	;Default guard spark number
+KO.echo = 1			;1 to enable echo on KO
+Volumescale=100			;Volume offset (negative for softer)
+IntPersistIndex = 60	;Variables with this index and above will not have their values
+FloatPersistIndex = 40  ;reset to 0 between rounds or matches. There are 60 int variables,
+  				;indexed from 0 to 59, and 40 float variables, indexed from 0 to 39.
+  				;If omitted, then it defaults to 60 and 40 for integer and float
+  				;variables repectively, meaning that none are persistent, i.e. all
+  				;are reset. If you want your variables to persist between matches,
+  				;you need to override state 5900 from common1.cns.
+
+
+[Size]
+xscale = 1			;Horizontal scaling factor.
+yscale = 1			;Vertical scaling factor.
+ground.back = 16		;Player width (back, ground)
+ground.front = 21		;Player width (front, ground)
+air.back = 11		;Player width (back, air)
+air.front = 16		;Player width (front, air)
+height = 94			;Height of player (for opponent to jump over)
+attack.dist = 120		;Default attack distance
+proj.attack.dist = 110	;Default attack distance for projectiles
+proj.doscale = 0		;Set to 1 to scale projectiles too   
+head.pos = 5, -86	;Approximate position of head
+mid.pos = 0, -48		;Approximate position of midsection
+shadowoffset = 0		;Number of pixels to vertically offset the shadow
+draw.offset = 0,0		;Player drawing offset in pixels (x, y)
+
+[Velocity]
+walk.fwd  = 3.2		;Walk forward
+walk.back = -2.6		;Walk backward
+run.fwd  = 6.6		;Run forward (x, y)
+run.back = -2,-3.6	;Hop backward (x, y)
+jump.neu = 0,-10.2	;Neutral jumping velocity (x, y)
+jump.back = -3.4		;Jump back Speed (x, y)
+jump.fwd = 3.6		;Jump forward Speed (x, y)
+runjump.back = -2.55,-8.1;Running jump speeds (opt)
+runjump.fwd = 4,-8.1	;.
+airjump.neu = 0,-8.1	;.
+airjump.back = -2.55	;Air jump speeds (opt)
+airjump.fwd = 2.5	;.
+air.gethit.groundrecover = -0.2,-3		;Velocity for ground recovery state (x, y) **MUGEN 1.0**
+air.gethit.airrecover.mul = 0.5, 0.5	;Multiplier for air recovery velocity (x, y) **MUGEN 1.0**
+air.gethit.airrecover.add = 0.5, -8		;Velocity offset for air recovery (x, y) **MUGEN 1.0**
+air.gethit.airrecover.fwd = 3			;Extra x-velocity for holding forward during air recovery **MUGEN 1.0**
+air.gethit.airrecover.back = -2		;Extra x-velocity for holding back during air recovery **MUGEN 1.0**
+air.gethit.airrecover.up = -2			;Extra y-velocity for holding up during air recovery **MUGEN 1.0**
+air.gethit.airrecover.down = 1			;Extra y-velocity for holding down during air recovery **MUGEN 1.0**
+
+
+[Movement]
+airjump.num = 0		;Number of air jumps allowed (opt)
+airjump.height = 35	;Minimum distance from ground before you can air jump (opt)
+yaccel = 0.6		;Vertical acceleration
+stand.friction = 0.88	;Friction coefficient when standing
+crouch.friction = .85	;Friction coefficient when crouching
+stand.friction.threshold = 1.0
+crouch.friction.threshold = 1.0
+air.gethit.groundlevel = 25
+air.gethit.groundrecover.ground.threshold = -20
+air.gethit.groundrecover.groundlevel = 10
+air.gethit.airrecover.threshold = -1
+air.gethit.airrecover.yaccel = 0.35
+air.gethit.trip.groundlevel = 15
+down.bounce.offset = 0, 20
+down.bounce.yaccel = 0.4
+down.bounce.groundlevel = 12
+down.friction.threshold = 0.5
+
+[Quotes]
+victory1 = "Please draw some HD sprites for me"
+victory2 = "I hate to be called the strongest woman thing."
+victory3 = "Not to brag... but I have the sexiest legs in the world :)"
+victory4 = "Sorry did I overdo that?"
+victory5 = "You are nice but I don't like you"
+
+victory21 = "You are not my Good ghost, be gone!" ; akuma or gouki
+victory22 = "I'd like to fight on your side honey :)" ; akuma good ghost
+victory23 = "How could you betray me?" ; good ghost
+victory24 = "Who said <People who defeat  theirselves are really strong> ? now I've done it" ; Herself
+victory25 = "You know I'm the best Chun-Li ^_^" ; Herself
+victory26 = "Hey Ken how is you marriage life going?\nI guess it soft you down" ;vs Ken
+victory27 = "Hey Ken what's wrong with you?\n You should concentrate on moves not my boob and legs."; vs Ken
+victory28 = "How is your trip going? I know you hate it but you should take a camera with you" ;vs Ryu
+victory29 = "Yes the rummers is true!\n Akuma is my boyfriend now..."; vs Ryu
+victory30 = "Ryu..\nDo you have time? I have something to tell you..."; vs Ryu
+victory31 = "Oh. Demons really can be Beautiful"; Morrigan / Lilith
+
+[zh.Quotes]
+victory1 = "谁来帮我画点HD的图呀"
+victory2 = "世界最强的女人这种称号什么的最讨厌了"
+victory3 = "我有世界上最性感的美腿"
+victory4 = "Sorry 是不是我做的有点过头了?"
+victory5 = "你非常不错，可惜不是我的菜呀"
+
+victory21 = "你不是我的好鬼，闪远点" ; akuma or gouki
+victory22 = "偶最喜欢跟你在一起战斗了" ; akuma good ghost
+victory23 = "你怎么可以背叛我?" ; good ghost
+victory24 = "是谁说战胜自己就是最强的人，现在我做到了" ; Herself
+victory25 = "我是那个最棒的春丽，你晓得的 :)" ; Herself
+victory26 = "嘿Ken状态这么差呀? 貌似你的婚后生活不和谐呀" ;vs Ken
+victory27 = "嘿嘿,集中精神,光看人家的美腿和胸部怎么能行呢 ^_^" 
+victory28 = "最近都去哪儿了? 虽然我知道你讨厌数码产品但是真相看看你能拍点照片回来看看" ;vs Ryu
+victory29 = "那些谣言是真的, Akuma GG 现在是我男朋友..."
+victory30 = "Ryu..\n有时间吗? 我有话想告诉你..." 
+victory31 = "哇,恶魔还真是可以张得很漂亮啊"; Morrigan / Lilith
+
+;-------------- Generated by Fighter Factory -------------
+

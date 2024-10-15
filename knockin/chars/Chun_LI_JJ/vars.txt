@@ -1,0 +1,126 @@
+;--------------------- Variable List ----------------------
+
+; Var(0) - StateDef , 5900, 190, 902, 903, 904, 905, 906, 907, 908, 909, 920 Intro Var
+; Var(1) - Mode var ?
+; var(4)   emeny attack status for AI
+; var(5)   Human Controller Charge Var 1
+; var(6)   Human Controller Charge var 2 buffer
+; var(7)   Attack Move Level 
+;	0 NO Attack
+;	1 Light Attack
+;	2 Mid Attack
+;	3 Heavy Attack
+;	4 Special Light
+;	5 Special Mid
+;	6 Special Heavy
+;	7 EX Moves
+;	8 Super Light
+;	9 Super Mid
+;	10 Super Heavy
+;	11 Ultra
+; var(8)-  switches
+;		 - 00000001 = 01 = Do not combo for AI
+; Var(9) - Jump var / Second property used in other state.
+; Var(10) - StateDef 750, 1005, 6005, 1015, 640, 800, 1000, 1010, 1100, 1200, 1205, 1300, 1400, 1405, 3000, 3100, 3200, 3300, 4000
+; Var(11) - Combo Counter Based on State StateDef 2
+; Var(12) - Parry Counter StateDef 700, 701, 702
+; Var(13) - StateDef 21 walk var
+; Var(14) - StateDef 21 walk var
+; var(15) - Guard Counter
+; var(18) - General Switch Var
+;		 - 00000001 = 01 = Do not guard
+;		 - 00000010 = 02 = Have AfterImage
+;		 - 00000100 = 04 = Cancel into focus attack
+;		 - 00001000 = 08 = Taunt Ablity (DEF up for chun Li)
+;		 - 00010000 = 16 = 
+;		 - 00100000 = 32 = 
+;		 - 01000000 = 64 = 
+;		 - 10000000 = 128= KO Sound/event Played or not 0 is not played
+; Var(20) - OC Mode StateDef 770, -2
+; Var(21) - Parry Type Def StateDef 151, 153, 10160, 10161, 10162, 10163, 10164, 10165, 1405
+; Var(23) - Finish move var
+;var(31) Used to work with var(11) for damage
+;var(32) Close Enemy,ID
+;var(33) Far   Enemy,ID
+;var(34) Teammate Player ID
+;var(35) 0 = Damger 1=Teammate is defending me 2=we are traping an enemy 3=Partner trapped.4=Teammate Cornered
+;var(36) Helper's Target ID
+;var(38) - Dizzy Threshold
+;Var(39) - Dizzy Var
+;var(44) - Specal Info announce out
+;		 - 00000001 = 01 = Dodge
+;		 - 00000010 = 02 = Charge(Helper(32767),var(4) > 2)
+;		 - 00000100 = 04 = Alpha Counter
+;		 - 00001000 = 08 = DarkStalker Combo
+;		 - 00010000 = 16 = Fast Attack
+;		 - 00100000 = 32 = Hadoken
+; var(45) - Attacking Helper
+; var(46) - Enemy info like var(44)
+; Var(50) - HP Life Buffer to detect life change for focus attack.
+; Var(51) - Foucs Attack ReGain Life
+; Var(52) - Revange Gauge (400 MAX)
+; Var(53) - Foucs Attack Flash Var
+; var(55) - opponent hadoken move state
+; var(56) - opponent helper last state number
+; var(57) - Debug
+; Var(58) - StateDef -3
+; var(59) - AI Tasks
+;		0 = Free Style 
+;		1 = Maintain distance
+;		2 = try to Throw 
+;		3 = enmey fail from air (shoryuken)have chance go close 
+;		4 = emeny back open 
+;		5 = Enemy taunt
+;		6 = Enemy Evade moves forward
+;		20 = OC Combo
+
+
+
+
+
+
+
+
+
+
+
+
+
+;--------------------- Float Variable List ----------------------
+; fvar(7)  - Detal velocity for x
+; fvar(8)  - Detal velocity for y
+; fvar(10) - Damage Scaling by States
+; fvar(11) - Damage Scaling by P2Life
+; fVar(25) - StateDef -2
+; fVar(26) - StateDef -2
+; fVar(27) - StateDef -2
+; fVar(28) - PreDamper
+; fVar(29) - StateDef -2  Damage Scaling facter
+; fVar(39) - Dizzy var StateDef 5300, -3
+; Constants and state file.
+; There are comments scattered through this file, so you may like to
+; take a look if would like to learn more about the cns.
+
+;-------------------------Helper Vars------------------------------
+; var(2,3) fvar(4)		Speed Detect Var
+; var(3)				Movecontact var (0= no contact 1=hit	2=guard)
+
+
+
+
+
+;-------------------------CO-OP Target ID-----------------------------
+;Throw 811, Target ID 811
+;Throw 812, Target ID 812
+;Special 1100, Target ID 1100
+;Super 3100, Target ID 3100, 3101
+;Super 3200, Target ID 3200
+
+;----------Sound channel def -----------
+;0= voice
+;1= superchargeeffect
+;2= nature sound eg. hit ground, jump sound, step sound
+;3= attack sound eg. wind
+;4= hitsond
+;5= explod sound
+;7= KO SND / High Priority

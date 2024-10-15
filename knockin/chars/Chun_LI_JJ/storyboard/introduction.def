@@ -1,0 +1,217 @@
+﻿;----------------------------------------------------------
+[Info]
+localcoord = 1280,720
+
+[SceneDef]
+spr = story.sff
+font0 = f-6x9.def
+font1 = name14.def
+font2 = enter48.def
+;snd = sound.snd
+;startscene=1
+
+[Scene 0]
+; Fade parameters
+fadein.time = 20       ;30 ticks (0.5 seconds) for fade-in
+fadeout.time = 10      ;30 ticks for fade-out
+
+; Music
+bgm = bgm.mp3
+bgm.loop = 1
+bgm.loopstart= 645033
+bgm.loopend= -1
+bgm.volume= 100
+
+; Layers
+layerall.pos = 0,720
+layer0.anim =  0
+layer0.offset = 0,0
+layer1.starttime= 0
+layer1.anim =  1
+layer1.offset = 1240,0
+
+layer2.starttime= 21
+layer2.font = 1,0,1,220,220,220
+layer2.text = "Hello guys!\nNice to meet you again in MUGEN"
+layer2.offset = 20,-680
+layer2.endtime = -1
+
+layer3.starttime= 191
+layer3.font = 1,0,1,220,220,220
+layer3.text = "I'm quite happy that Capcom has \nnothing to do with me this time!\nNo revenge for father or\nchase on Bison/Vega are no longer need.\nYes I'm free to go ^_^"
+layer3.offset = 20,-600
+layer3.endtime = -1
+
+layer4.starttime= 501
+layer4.font = 1,0,1,220,220,220
+layer4.text = "So I'm on my vacation. Look nice view huh?"
+layer4.offset = 20,-500
+layer4.endtime = -1
+
+layer5.starttime= 601
+layer5.font = 1,0,1,220,220,220
+layer5.text = "From now on you guys call me JJ.\nBecause I'm older than most of you\nand JJ means elder sister in chinese. \nIt's a common and friendly way to call \ngirls older than you"
+layer5.offset = 20,-460
+layer5.endtime = -1
+
+layer6.starttime= 1001
+layer6.font = 1,0,1,220,220,220
+layer6.text = "What you only like MM (Yonger sister)? eeehh.. \nIt's OK if you want to call me MM. \nAll girls want to hide their ages \nand stay yong :)"
+layer6.offset = 20,-340
+layer6.endtime = -1
+
+layer7.starttime= 1401
+layer7.font = 1,0,1,220,220,220
+layer7.text = "Ha? What my name? Chun-Li of course! \nFull name? surname name?? \nChun isn't in chinese surname list?"
+layer7.offset = 20,-250
+layer7.endtime = -1
+
+layer8.starttime= 1801
+layer8.font = 1,0,1,220,220,220
+layer8.text = "I can only tell you that\nmy last name is Chun-Li and I hate Bison, \nhave a new boyfriend AKUMA-good ghost and \ncoded in P.O.T.S style. but my surname is?"
+layer8.offset = 20,-160
+layer8.endtime = -1
+
+layer9.starttime= 2001
+layer9.font = 1,0,1,220,220,220
+layer9.text = "Damn! I even don't know my father's name!\nThat Damn CAPCOM hasn't told me!\nHoney!! what's my surname?"
+layer9.offset = 20,-80
+layer9.endtime = -1
+
+; Total time
+end.time = 2700
+
+
+
+[Scene 1]
+; Fade parameters
+fadein.time = 20       ;30 ticks (0.5 seconds) for fade-in
+fadeout.time = 20      ;30 ticks for fade-out
+; Layers
+layerall.pos = 0,720
+layer0.anim =  0
+layer0.offset = 0,0
+layer1.starttime= 0
+layer1.anim = 2
+layer1.offset = 0,-200
+layer2.starttime= 0
+layer2.anim = 3
+layer2.offset= 400,-40
+layer2.endtime= 280
+
+layer3.starttime= 30
+layer3.font = 1,0,1,220,220,220
+layer3.text = "Don't look at me. \nYou know those computer things better than me"
+layer3.offset = 420,-160
+layer3.endtime = 240
+
+layer4.starttime= 271
+layer4.anim = 4
+layer4.offset= 920,-40
+layer4.endtime= -1
+
+layer5.starttime= 290
+layer5.font = 1,0,1,220,220,220
+layer5.text = "I've to admire that some times you are cleverer than me\n\nMay be I Should \n\nfind a internet cafe and \n\n GOOGLE it....."
+layer5.offset = 40,-160
+layer5.endtime = -1
+
+end.time = 720
+
+[Scene 2]
+; Fade parameters
+fadein.time = 20       ;30 ticks (0.5 seconds) for fade-in
+fadeout.time = 20      ;30 ticks for fade-out
+; Layers
+layerall.pos = 0,720
+layer0.anim =  0
+layer0.offset = 0,0
+layer1.starttime= 0
+layer1.anim = 5
+layer1.offset = 640,0
+
+end.time = 500
+
+[Scene 3]
+; Fade parameters
+fadein.time = 20       ;30 ticks (0.5 seconds) for fade-in
+fadeout.time = 20      ;30 ticks for fade-out
+; Layers
+layerall.pos = 0,720
+layer0.anim =  0
+layer0.offset = 0,0
+layer1.starttime= 0
+layer1.anim = 12
+layer1.offset = 0,-200
+layer2.starttime= 0
+layer2.anim = 14
+layer2.offset= 920,-40
+layer2.endtime= -1
+
+layer3.starttime= 40
+layer3.font = 1,0,1,220,220,220
+layer3.text = "I guess I have no choise.\n\nI need to go aboard for ask people around the world\n\nOr back to capcom again? "
+layer3.offset = 40,-160
+layer3.endtime = -1
+
+end.time = 600
+
+;<Animation>
+[Begin Action 0]
+0,1, 0,0, -1
+
+[Begin Action 1]
+0,0, -1280,0, 2
+0,0, -1100,0, 2
+0,0, -900,0, 2
+0,0, -800,0, 2
+0,0, -700,0, 2
+0,0, -600,0, 2
+0,0, -500,0, 2
+0,0, -300,0, 2
+0,0, -180,0, 2
+0,0, 0,0, -1
+
+[Begin Action 2] ; City
+1,2, 0,0, 270
+1,2, -15,0, 2
+1,2, -20,0, 2
+1,2, -35,0, 2
+1,2, -40,0, 2
+1,2, -55,0, 2
+1,2, -60,0, 2
+1,2, -65,0, 2
+1,2, -70,0, 2
+1,2, -75,0, 2
+1,2, -80,0, -1
+
+[Begin Action 12] ; City2
+1,2, -80,0, -1
+
+[Begin Action 3] ; amuma
+1,1, 0,0, 270
+1,1, -80,0, 2
+1,1, -160,0, 2
+1,1, -240,0, 2
+1,1, -320,0, 2
+1,1, -400,0, 2
+1,1, -480,0, -1
+
+[Begin Action 4] ; chun li thinking
+1,0, 500,0, 2
+1,0, 450,0, 2
+1,0, 400,0, 2
+1,0, 350,0, 2
+1,0, 300,0, 2
+1,0, 250,0, 2
+1,0, 200,0, 2
+1,0, 100,0, 2
+1,0, 50,0, 2
+1,0, 25,0, 2
+1,0, 0,0, -1
+
+[Begin Action 14] ; chun li thinking2
+1,0, 0,0, -1
+
+[Begin Action 5] ; GFW
+2,0, 0,0, -1
