@@ -17,7 +17,7 @@ Initializing graphics...gameCoord 1280x720...render mode 2_20...trying 1280x720x
 Setting callbacks...OK
 Initializing font...OK
 Initializing game variables...OK
-Session RNG seed is 1729002379
+Session RNG seed is 1729004679
 Loading system fonts...OK
 Loading options...
 Initializing pads...failed
@@ -92,8 +92,8 @@ Freeing players
 Game loop init
 Unreserved all palettes
 Charsel init
-Selected char 13 on teamslot 0.0
-Char don-ramon.def (13) request pal 0 1F (1F) -> reserved 0 (1E)
+Selected char 14 on teamslot 0.0
+Char Kratos.def (14) request pal 0 FFF (FFF) -> reserved 0 (FFE)
 Selected char 0 on teamslot 1.0
 Char kfm.def (0) request pal 3 3F (3F) -> reserved 3 (37)
 End of charsel loop
@@ -115,24 +115,26 @@ Loading stage...
 Stage loaded OK
 Setting game resolution 1280x960...OK
   Allocating helpers...OK
-Match RNG seed: 1348474616
+Match RNG seed: 354002275
 Reset persist vars team 0
 Reset persist vars team 1
-Loading character chars/don-ramon/don-ramon.def...
-  Loading info...Info: Don Ramon loading in pre-1.0 compatible mode
-OK
-  Loading cmd command set ken.cmd...OK
-  Loading cns ken.cns...OK
-  Loading cmd state entry ken.cmd...OK
+Loading character chars/Kratos/Kratos.def...
+  Loading info...OK
+  Loading cmd command set Kratos.cmd...OK
+  Loading cns Kratos.cns...OK
+  Loading cns Magias.cns...OK
+  Loading cns Armas-Tc.cns...OK
+  Loading cns Supers.cns...OK
+  Loading cmd state entry Kratos.cmd...OK
   Loading common states common1.cns...OK
-  Loading sff ken.sff...OK
-  Loading anim ken.air...OK
-  Loading snd ken.snd...OK
-  Loading pals...(1,1)(1,2)(1,3)(1,4)(1,5)OK
+  Loading sff Kratos.sff...OK
+  Loading anim Kratos.air...OK
+  Loading snd Kratos.snd...OK
+  Loading pals...(1,1)(1,2)(1,3)(1,4)(1,5)(1,6)(1,7)(1,8)(1,9)(1,10)(1,11)(1,12)OK
   SFF v1.01 palette hack engaged.
-  10208 expressions (3089 on trigger lines)
-Character don-ramon.def loaded OK
-New char Evil Ken loaded into cache: (1/4 cached) Load time: 770.000ms
+  16668 expressions (3753 on trigger lines)
+Character Kratos.def loaded OK
+New char Kratos-God-of-War loaded into cache: (1/4 cached) Load time: 3160.000ms
 Loading character chars/kfm/kfm.def...
   Loading info...OK
   Loading cmd command set kfm.cmd...OK
@@ -151,38 +153,29 @@ Resetting round
 Match assets initialized OK
 Game loop init
 Match loop init
-Resetting round
 End of match loop
-Total time: 80.77s
-Total frames: 4848 	Skipped frames: 2
-Avg game rate: 60.02
-Avg frame rate: 60.00
+Total time: 36.88s
+Total frames: 2214 	Skipped frames: 0
+Avg game rate: 60.03
+Avg frame rate: 60.03
 
 Finishing match
 Freeing players
-Save persist vars P56 Evil Ken
-Player Evil Ken cache count reduced: 0
+Save persist vars P56 Kratos-God-of-War
+Player Kratos-God-of-War cache count reduced: 0
 Save persist vars P57 Kung Fu Man
 Player Kung Fu Man cache count reduced: 0
 Match RNG closed
-Game loop deinit
-Gameflow 12
-Entering victory screen.
-Setting game resolution 1280x720...OK
-Unloading match assets
-Freeing players
-Unloading stage...OK
-Game loop init
-Victory screen init
-End of victory screen loop
 Game loop deinit
 Gameflow 6
 Reset persist vars team 0
 Reset persist vars team 1
 Gameflow 7
 Entering character select.
+Setting game resolution 1280x720...OK
 Unloading match assets
 Freeing players
+Unloading stage...OK
 Game loop init
 Unreserved all palettes
 Charsel init
@@ -196,101 +189,16 @@ Game loop init
 Mode select init
 End of mode select loop
 Game loop deinit
-Gameflow 6
-Reset persist vars team 0
-Reset persist vars team 1
-Char CJ.def (10) request pal 11 3FF (3FF) -> reserved 5 (3DF)
-Char yujiro.def (4) request pal 10 FFF (FFF) -> reserved 10 (BFF)
-Gameflow 8
-Gameflow 9
-Gameflow 10
-Gameflow 11
-Loading match assets...
-Loading stage...
-  Loading BG...OK
-Stage loaded OK
-Setting game resolution 1280x960...OK
-  Allocating helpers...OK
-Match RNG seed: 1040423393
-Reset persist vars team 0
-Reset persist vars team 1
-Loading character chars/CJ/CJ.def...
-  Loading info...OK
-  Loading cmd command set CJ.cmd...OK
-  Loading cns Resources/cns.cns...OK
-  Loading cns IA.cns...OK
-  Loading cmd state entry CJ.cmd...OK
-  Loading common states Resources/common.cns...OK
-  Loading sff Resources/spr.sff...OK
-  Loading anim CJ.air...OK
-  Loading snd Resources/snd.snd...OK
-  Loading pals...OK
-  16671 expressions (3722 on trigger lines)
-Character CJ.def loaded OK
-New char CJ loaded into cache: (3/4 cached) Load time: 4990.000ms
-Loading character chars/yujiro/yujiro.def...
-  Loading info...Info: yujiro-hanma loading in pre-1.0 compatible mode
-OK
-  Loading cmd command set state/yujiro.cmd...OK
-  Loading cns state/yujiro.cns...OK
-  Loading cns state/OverRide.cns...OK
-  Loading cns state/-2.cns...OK
-  Loading cns state/-3.cns...OK
-  Loading cns state/Tech.cns...OK
-  Loading cns state/Special.cns...OK
-  Loading cns state/SuperArts.cns...OK
-  Loading cns state/Helper.cns...OK
-  Loading cmd state entry state/yujiro.cmd...OK
-  Loading common states common1.cns...OK
-  Loading sff media/yujiro.sff...OK
-  Loading anim state/yujiro.air...OK
-  Loading snd media/yujiro.snd...OK
-  Loading pals...(1,1)(1,2)(1,3)(1,4)(1,5)(1,6)(1,7)(1,8)(1,9)(1,10)(1,11)(1,12)OK
-  SFF v1.01 palette hack engaged.
-  10877 expressions (4223 on trigger lines)
-Character yujiro.def loaded OK
-New char yujiro loaded into cache: (4/4 cached) Load time: 760.000ms
-Resetting round
-Match assets initialized OK
-Game loop init
-Match loop init
-End of match loop
-Total time: 12.60s
-Total frames: 757 	Skipped frames: 0
-Avg game rate: 60.08
-Avg frame rate: 60.08
-
-Finishing match
-Freeing players
-Save persist vars P56 CJ
-Player CJ cache count reduced: 0
-Save persist vars P57 yujiro
-Player yujiro cache count reduced: 0
-Match RNG closed
-Game loop deinit
-Gameflow 3
-Gameflow 4
-Entering mode select.
-Setting game resolution 1280x720...OK
-Unloading match assets
-Freeing players
-Unloading stage...OK
-Game loop init
-Mode select init
-End of mode select loop
-Game loop deinit
 Returned from gameflow loop
 Deinitializing...
-Frames      : 8327
-Time elapsed: 156.350 sec
-ticks: 15635, tps: 100, start 221, end 15856
+Frames      : 3237
+Time elapsed: 67.900 sec
+ticks: 6790, tps: 100, start 233, end 7023
 
 Unloading match assets
 Freeing players
 Clearing player cache...Freeing player RC Kung Fu Man...CMD...CNS...SFF...AIR...SND...Misc...OK
-Freeing player RC yujiro...CMD...CNS...SFF...AIR...SND...Misc...OK
-Freeing player RC CJ...CMD...CNS...SFF...AIR...SND...Misc...OK
-Freeing player RC Evil Ken...CMD...CNS...SFF...AIR...SND...Misc...OK
+Freeing player RC Kratos-God-of-War...CMD...CNS...SFF...AIR...SND...Misc...OK
 OK
 Freeing character info...OK
 Freeing select screen...OK
