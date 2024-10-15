@@ -4,9 +4,15 @@
 
 [Data]
 life              = 2000
+<<<<<<< HEAD
 power             = 5000
 attack            = 165
 defence           = 80
+=======
+power             = 4000
+attack            = 150
+defence           = 130
+>>>>>>> d6410a0ac6d0c8b8dd02893e030e27620c39f2be
 fall.defence_up   = 50
 liedown.time      = 50
 airjuggle         = 15
@@ -18,7 +24,11 @@ intpersistindex   = 5,20
 floatpersistindex = 40
 
 [Size]
+<<<<<<< HEAD
 xscale = 0.8             ;Horizontal scaling factor.
+=======
+xscale = 0.8                ;Horizontal scaling factor.
+>>>>>>> d6410a0ac6d0c8b8dd02893e030e27620c39f2be
 yscale = 0.8                  ;Vertical scaling factor.
 ground.back = 16            ;Player width (back, ground)
 ground.front = 15           ;Player width (front, ground)
