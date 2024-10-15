@@ -1,0 +1,253 @@
+Neo Ken-X Moves list:
+Current Progress - 100%
+
+Note: Ken-X no longer uses his own common.cns file, so it's VERY recommended that you make a clean install for Ken-X.  Otherwise there may be odd bugs.
+
+Note 2: Anything regarding Ken-X is usable.  Host him anywhere you want!  Use his code (But I hope it's to learn to effectively code, yourself O_O)!  Use his sprites!  Use his sounds!  Just at least mention me somewhere, if you can ;_;.
+
+There's a few exceptions regarding the sprites though.  Basically, any sprite I HAVEN'T gotten from other creators (See credits for details on what ones to avoid using) is open.
+
+Release 6.9b:
+ -More tweaks to various vels.
+ -Whoops!  I changed the timing of Ryu's intro and forgot to change Ken's!  I really don't like that intro so much anyway these days :P.  Fix'd.
+ -Inverted throws?  Whoops!  Fix'd.
+ -Pillar now goes the entire height of ANY stage.  Uh, I hope.
+
+Release 6.9:
+ -Ken-X now throws his fireballs with one hand!  This alters his gameplay a bit, as now his fireballs come out slower.
+ -Speed tweaks to all of his moves.
+ -Tweaks, tweaks, tweaks.
+ -Open-source!
+
+Release 6.6:
+ -Made some quick fixes to Ken's Shoryureppa.  It should now OTG.
+
+Release 6.5:
+ -Bugfixes and tweaks galore.
+ -Shoryureppa and Shippu Jinrai Kyaku are much more accurate to their MvSF incarnations now.
+ -Turns mode intro problem is gone now.
+ -Code optimisations here and there.
+ -More glaring Vs. system inaccuracies cleaned up.
+
+Release 6:
+ -Tweaked his overall speed, he should be faster now.
+ -Redid his hurricane kicks to be more accurate and actually blockable O_O!
+ -He now has a pose for Burst Mode, instead of just...well...standing there.
+ -Redid the Hado Burst entirely, it looks (and acts) MUCH better now, as well as having a less annoying command.  See below (movelist portion) for details on it.
+ -For that matter, all projectile moves were recoded from scratch.
+ -Added SFA3's Shoryureppa Sample to replace the current one.
+ -Added Puzzle Fighter's Taunt Sample to replace the current one (Pocket Fighter Taunt).  Hey, it's a lot closer to his VS. voice than SF3's is.
+ -Put in some other MSH vs. SF Samples, one to replace the out of place SF3 'Yay!' in a win pose.
+ -Now with his MSH vs. SF Win pose.
+ -He has a second turns mode intro now and I fixed a small bug in the existing turns intro you probably wouldn't notice without debug on.
+ -Some of the attr for the hitdefs were off.  Fixed.
+ -Recoded the Shoryureppa, and made it Button-mashable ala MvC2.
+ -Added Afterimages to the supers (Finally).
+ -Redid the Aerial Raves AGAIN.  NOW they satisfy me.
+ -Put in a MUCH better super background, thanks to Big Eli King ^_^.
+ -MSH vs. SF's Dragon Punch sprites are go, and with them came a whole lot of fixes to the dragon punches, including making the flames explods!
+ -Dumped the Ryu palette and replaced it with a 'grey' one.
+ -Pausetimes now accurate!
+ -Edited more animation frames for the Shin Tatsumaki.  Now fully animated!
+ -Shippu Jinrai Kyaku is now mashable as in MvC2.
+ -Big Gameplay tweaks to Rolling Strike, see below (movelist portion) for details.
+ -Shoryureppa now has a Burst Mode version, see below (movelist portion) for details.
+ -All Guard Push problems fixed.
+ -Fixed some glaring inaccuracies in the Vs. gameplay system I have.
+ -Required Anims are fixed up.  No more odd positions when Ken flies up X_x.
+ -New Xmen vs. SF style knockdown states, modified from Sunboy's Marvel Knockback states.
+ -Full frame dusts and gethit flames are go.
+ -The 'trip into special move' comboes were canned as in Xmen vs. SF.
+
+Release 5:
+ -More hitbox tweaking, now the priorities should be normal.
+ -Got MSHvSF's voice quotes for the Shippu Jinrai Kyaku.
+ -Some minor tweaks to certain moves.
+ -Fixed the Air Hadoken's Physics.
+ -Bug in the air attack animations fixed.
+ -Air Comboes completely revamped, should be WAY more accurate now.
+ -To reduce bugs based on new common1.cns additions in new MUGEN versions, I got rid of the special common file, and copied all edited common states into the main file.
+ -Timings were tweaked in the commands.
+ -Fireball Dust trail added, thanks to MystikBlaze!
+ -New Shinryuken Pillar, thanks to MystikBlaze!
+ -The Burst Mode Standing Animation is now timed as it is in SFA3.
+ -Added Ken's SFA3 Fake Move!
+ -Optimizations here and there.
+ -Added Ken's Midnight Bliss sprites.
+ -Fixed up Ken's Air Hurricane Kicks
+ -Fixed the bug where you'll never turn to face the enemy if you continuously jump.
+ -Shoryureppa is invincible during most of the first dragon punch, like in the games, and the air hurricane kick gives you ctrl when you finish it now.
+ -Rewrote the Recovery Roll, fixing the Rolento bug and making it more accurate in general.
+ -Added the SF3/NeoPocket SvC style special intro vs. Ryu-X!
+
+Patch Release 4.2:
+ -Fixed the bug with the roundhouse kick against characters whose anim 5030 specifies a -1 Animtime instead of a looptime like they're supposed to have :P, they will no longer go flying through the floor.  Thanks, ChairmanKaga!
+ -Added Clsn2 boxes to Ken's arms and such for his basic attacks, like I was supposed to ^^;
+ -Completely fixed Ken's turns intro, thanks to BBHood!
+ -Fixed up Rolling Strike and Ken's Dash so you don't 'float' temporarily when you're hit while using it.
+
+Patch Release 4.1:
+ -Fixed Shippu Jinrai Kyaku's Poweradd Problem
+ -Fixed the Turns Mode Intro
+
+Release 4:
+ -Air Comboes slightly tweaked (may not notice any difference).
+ -Special/Super move dust now shows up when you use Rolling Strike.
+ -Tweaked both dashes, and what they can chain into/from.
+ -Fixed the 'Invalid State 51' bug.
+ -Remembered to get rid of that poweradd this time ^^;;;
+ -Fixed the super jump commands.
+ -Fixed a Hyper Combo Finish bug in the Shippu Jinrai Kyaku.
+ -Alpha Counters giving you power?  Eeee, fixed.
+ -Gave him a really dumb ending :P.  It's my first storyboard, here!
+ -Found a way to control the defencemul for supers, and did so.
+ -Special intro vs. Evil Ken added!
+ -Turns mode intro added!
+
+Major Changes from the Original Ken-X, both sprite-wise and gameplay:
+ -Full CPS2 Animation (Not much better than he was...but...)
+ -Exact (or near) Arcade ticks for the animations.
+ -Completely redid his ENTIRE combo system.  He plays NOTHING like he used to, combo-wise, and is much more accurate.
+ -Made the variance in damage/speed for Ken's fireballs much more noticeable, for strategy purposes.
+ -Redid his damaging ability, before he was just plain ridiculous.
+ -Redid his throws, they are now "Tech-hittable".
+ -He now has correct required and gethit sprites as well as the correct falling animations, etc.
+ -Redid that crappy MvC knockdown code completely, it's MUCH more accurate now.
+ -No more MvC hitsparks, i'll say it again, I HATE them.
+ -Burst mode, need I say more?
+ -I got rid of the Sean Helper, and put Burst mode in it's place.  I can't do the team super like  I wanted, but I did SOMETHING original.
+
+Commentary: Ken-X was my second character, originally modeled after CharlzN64's excellent SFA style Ken.  How neat!  With the advent of Xmen vs. SF's decryption and much more experience in character making on my part, I finally gave poor Ken the update he deserved.  I completely redid him from the top.  Reripping most of his sprites, recoding all his animations with the exact Arcade ticks (or as close as I could get).  All that time sitting there collecting dust was worth it, as Ken-X is now happy, shiny and new as well as having full CPS2 animation and being MUCH better made (and he'll load faster too!).  Neo Ken-X, as was the old Ken-X, is supposed to emulate his MSH vs. SF and above incarnations.
+
+Ah well.  This is a movelist for Ken.  Ain't that great?  Movelists for people with movelists and whose moves everyone knows!  YAY!  Well.  I'm still writing it anyway.
+
+
+Normal Attacks:
+
+>A - Short Kick
+>B - Forward Kick
+>C - Roundhouse Kick
+>X - Light Punch
+>Y - Strong Punch
+>Z - Fierce Punch
+>Forward + Z (close) - Rolling Throw (there is also an air version of this throw)
+>Back + Z (close) - Rolling Throw (Same, except there's no turn)
+>Forward + C (close) - Knee Press Nightmare (a joke.  It's a knee throw)
+>Back + C (Close) - Knee Throw (Same, except there's no turn)
+>Forward + B - The Ever Famous Axe Kick 
+>Down, Up - Super Jump! (Can move while in the air during this)
+>Any Two Punches (while guarding) - Guard Push (This pushes the enemy back during a guard, and allows you to get out of tight situations.  Can be done in the air, too.)
+>Down, Downback, Back, Any punch/kick (when falling) - Recovery Roll (This allows for a quick recover from falling, giving you plently of time to kick the opponent in their head!)
+
+Start - Taunt (Random: One is his usual taunt - Ya ta de!, the other is a modified version of his Pocket Fighter Taunt, which holds a neat little surprise if the opponent...)
+
+
+- Burst Mode Only Basics -
+
+>Forward + C - Ushiro Mawashi Geri (A spin on the Strong kick, Ken spins then thrusts his foot forward to knock the enemy all the way into the wall.  Difficult to combo due to it's beginning lag, but worth it.)
+
+
+Specials:
+
+>Down, DownForward, Forward, X,Y or Z - Hadoken (Ken's version of Ryu's fireball modified to be like Sakura's version of Ryu's fireball.  Lemme catch my breath a moment, now.  The fireball is weaker than Ryu's, but much faster.  Pushing X, Y, or Z controls how fast it goes and when it dissipates, as well as it's power.  Z is the weakest, but almost goes across the screen, and is the fastest.  X is the strongest, but slowest, and barely goes beyond one of Dan's fireballs.  Y is in between.  How bout that?  Oh, In the air, Ken throws it downward kinda like Akuma.)
+>Forward, Down, DownForward, X,Y or Z - Shoryuken (Unlike Ryu, this is Ken's area of expertise.  So, naturally, it's much stronger than Ryu's dinky version.  Pushing X, Y or Z control how high Ken flies...but Y makes Ken's fist burn when he does it and Z lights him on fire.  Behold the power of Ken.)
+>Down, DownBack, Back, A,B or C - Tatsu Maki Senpuu Kyaku (Ken's Hurricane Kick was modified to fly upward diagonal instead of forward like Ryu's.  Why?  To make him like Sakura.  Well, Sakura's hurricane kick wasn't as cool as this anyways.  Pushing A, B or C controls it's arc, and how strong it is.  Also, at the end, Ken does an Axe kick which knocks the enemies into the ground.  Nifty!) 
+>(While blocking)Back, Downback, Down, Any punch - Alpha Counter Shoryuken (Alpha Counters rock!  So I kept this one.  Ken counters any attack with a Shoryuken.)
+>(While blocking)Back, Downback, Down, Any kick - Alpha Counter Tatsumaki (Ken gives them a taste of fire when he counters with this flaming hurricane kick.)
+>Down, DownForward, Forward, start - Fake Rolling Strike (Ken tumbles over, and doesen't do much else :P)
+
+
+
+- Burst Mode Only Specials -
+
+>D, DF, F, any punch - Rolling Strike (Ken dashes into a roll [you can move through the opponent and avoid hits during the dash, so it doubles as a dodge] and then rolls into a launcher.  You can cancel the roll portion to perform a super provided you have the power stock.  From the launcher...)
+>(during Rolling Strike) D, DF, F, any punch - Rasen (...Ken will do an uppercut launching them into the air, like a Shoryuken, only better.)
+>(during Rolling Strike) D, DF, F, any kick - Hurricane Kick (Timing is required if you want to get this move at it's full potential, if you're too late, you wont get all the hits.)
+>D, DB, B, any kick - Hurricane Kick (The hurricane kicks become vastly differen't in Burst Mode.  A's arcs upward similar to normal mode's hurricane kick, but has no axe kick at the end,  B's goes straight up (albeit not as high as A's) and can hit on both sides which is useful in simul team battle, and finally C's is like the classic Ken hurricane kick.)
+>F, D, DF, any punch - Shoryuken (There's no reason to mention this move as it's exactly the same.  Funny.)
+>Both Alpha Counters remain the same.
+
+
+Supers:
+
+>Down, DownForward, Forward, Any two punches - Shoryureppa (Ken's ultimate adaptation of his Dragon Punch shows him to be absolutely nuts with it.  Ryu wishes he could do this as good as Ken does...but Ryu likes his fireball and hurricane kick better anyway.  You can button mash during the final dragon punch for more damage and hits!)
+>Down, DownBack, Back, Any two kicks - Shippu Jinrai Kyaku (Ken goes nuts with a wild kicking combo.  This, hands down, is Ken's most powerful super.  Can't get better than this one..and you can even button mash during the final hurricane kick portion for more damage and hits!)
+>Down, DownForward, Forward, Any two kicks - Shinryuken (Ken does a literal Rising Dragon Fist.  He spins so fast it flies him high in the air with it too.  Roll on the buttons and see if you can add more hits to the carnage!  BURN!)
+
+
+- Burst Mode Only Supers - 
+
+>D, DF, F, any two punches - Shoryureppa (It might be slower than normal mode's at the start, but don't let that fool you!  It's range, power and speed grow with each consecutive dragon punch.  Like normal mode's, however, you can button mash during the final dragon punch.)
+>D, DB, B, any two kicks - Shippu Jinrai Kyaku (Exactly the same as it's normal rendition.)
+>D, DF, F, any two kicks - Shin Tatsu Maki Senpuu Kyaku (The ultimate hurricane kick!  A flaming spin that goes straight up :P, can hit on both sides, too.)
+>D, DB, B, any two punches (ground or air) - Hado Burst! (Ken's only means of using a fireball in Burst Mode.  Don't be fooled by it's small size, you wont like it when it hits you and it's a fast little bastard.  It's also his most comboable super, due to the fact that it's usable in the air too.)
+
+
+What the hell is Burst Mode?
+Ken's SF3 form, based on Sunboy's SNKCap team Ken.  It's basically a neat twist for those who'd rather have something differen't.  Besides, Hado Burst alone isn't gonna cut it as something more original.  So I made the whole mode.  It's usable through a Ryu MvC esque string.  
+
+>D, DF, F, z+c - Burst Mode
+
+You can return to normal mode through the same means.  If you'd like a twist in your fighting style, turn to Burst Mode.  Ken's current mode is reset between fights, but not between rounds.
+
+
+Special Notes:
+Now, a small session on Aerial Raves.  In order to use an Aerial Rave, you must use a launcher move to launch the enemy into the air, and then jump after them.  Perform any combo you like, timing's the only skill needed.  Ken's launcher move is his crouching Fierce Punch.  Experiment with this, cause Aerial Raves rock, hands down.  
+
+
+Uwaa!  There's a female Ken in the .sff!
+A plea to anyone considering Demitri!  For Midnight Bliss to achieve it's full potential, we had to agree on a set of animation numbers using the Midnight Bliss sprites.  For those who have no idea what I mean: It's a super where Demitri turns the men into women for his personal harem (or if you're a woman he does...something) and sucks their life away.  The two animation numbers i've placed the Midnight Bliss set in are:
+
+-Animation 5132 (Midnight Bliss Curse - Victim standing there in new form looking dazed)
+-Animation 5133 (Victim when lifted, and life is sucked out)
+
+It'd be great if we could use this make a Demitri that's true to the original ^_^.
+
+
+Palettes (palettes you need to hold start for have a > in front of them):
+default.act - Ken's usual red attire
+darkblue.act - A Dark blue ensemble
+white.act - A White gi, to be just like Ryu
+yellow.act - A Yellow ensemble, similar to what he wears in MvC
+purple.act - A Purple ensemble
+green.act - A Green ensemble
+>grey.act - Ken decided to be boring and went with a grey gi.
+>dan.act - Saikyo fans will love this one.
+>akuma.act - Yep, I was demented enough to color Ken like Akuma.  Scared?
+>lightblue.act - A basic bright blue gi.  How neat!
+>forest.act - Ken's gi can also double as forest camoflauge!
+>aqua.act - I ran out of ideas, so I did this.
+
+
+Things left to do:
+>Not too much, really.
+
+
+Special Thanks:
+>I thank the people at MUGEN Dev and Being Board who've answered my questions and helped me out a lot ^_^
+>I thank Ragnarok Nemo, for his awesome program, MEE.  You rock!
+>I thank Charlz, cause his Ken was made into the original Ken-X ^^.
+>I thank Elecbyte!  They made my favorite customizable fighting engine, of course ;)!  
+>I thank Delita, for his super jump code that I modified...well, it used to be there.  I have something else to thank him for anyway, he's been a great help in reripping Shinryuken (read: he did it and pieced it together for me), and he was nice enough to donate the Guard Push anim and spark to me!  Delita also donated Xmen vs. SF's ending sprites as well.  Thanks!
+>I thank Tenshin, he gave me permission to use his grab frames for Ken's tech hit and forward C frames for Ushiro Mawashi Geri, and I used his ground rolling throw targetbinding as a reference for my own.
+>I thank Jin Kazama.  I had no idea how to make aerial raves (and combos for that matter) before I looked at his Cammy.
+>I thank Mr.Karai!  His MvC effects are great, and i'm glad he let me use them!  Most effects were from Karai's Jin, also Jin's superpause taught me to make the portrait scroll like that without using the .air file to do it.  Thanks!
+>I thank Sorrowedge!  I used his excellent Tech Hitting code :D.
+>I thank Razorgolem and Kamek for hosting my characters.  They're great guys!
+>I thank Necromancer, because his help with the guard push and recovery roll codes made them possible :).
+>I thank Drachir, whose Sean sprites were in old Ken-X.  Good luck on your project too, I wish you the best...wherever you are.
+>I thank Majere, whose A-ko and B-ko showed me a way to fix all my Hyper Combo Finish troubles ^_^.
+>I thank Tercero, who helped me out with his falling physics code from MvC.
+>I thank Sunboy, for letting me use SNK Cap as a reference for making 'Burst' mode and for his Xmen vs. SF knockdown states I used and modified for Ushiro Mawashi Geri and Standing C.  Thanks!
+>I thank Dave, Final Burn rocks, and it's tick by tick advance also allowed me to recode most of Ken's animations to be arcade exact.  *Sigh* RIP Final Burn...
+>I thank Camrat, whose Anita has basically near-perfect air comboes, which helped me learn how to make better ones, myself..
+>I thank Psyborg, whose Roll has near-perfect air comboes as well...and was the perfect example to finally make an air combo system i'm satisfied with.
+>I thank MystikBlaze, who let me use his new Shinryuken Pillar frames ^^.  Thanks!
+>I thank the Clown Prince of Crime for his edited sprites used in the Midnight Bliss super (see 'Uwaa, there's a female Ken in the .sff!' section)!  Thanks ^_^.
+>I thank Setsuna and BlacKnight, the former for helping me with some details I missed on Ken and the latter for introducing me to the Rolento bug.  Note: Use Sysvars in custom states, not variables X_x.
+>I thank Big Eli King, whose Peach's Alpha Charge BG I used.  Thanks!
+>I thank One Second Ago for his kindness in hosting Ken while VFX MUGEN is down.
+
+Ok, Ok, REAL Final Note: These are some things I need help with, any help can be appreciated.
+
+>Bugs - Pending.

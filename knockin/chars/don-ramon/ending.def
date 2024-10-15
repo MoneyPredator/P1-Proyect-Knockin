@@ -1,0 +1,36 @@
+; ending cutscene for ken-x
+
+[scenedef]
+spr = ending.sff
+startscene = 0         ;starting scene number (for debugging)
+
+;------------------------------------
+[scene 0]
+; fade
+fadein.time = 60       ;time to take for fading in
+fadein.col = 0,0,0     ;use 255,255,255 for white-fade
+fadeout.time = 50
+fadeout.col = 0,0,0
+; screen color
+clearcolor = 0,0,0
+; overlay anims (from 0 to 9)
+layerall.pos = 160,0   ;default position for all layers
+layer0.anim =  1       ;anim action number
+layer0.offset = -195,5    ;position offset
+layer0.starttime = 0   ;time to start display
+; music
+bgm = kenending.mp3       ;name of music file to play
+bgm.loop = 9999
+; total time
+end.time = 2000
+
+; the whole ending :p
+[begin action 1]
+0,1, 0,0, 500
+0,2, 0,0, 500
+0,3, 0,0, 500
+0,4, 0,0, 500
+
+
+
+
