@@ -2,8 +2,8 @@
 ;---------------- Constantes y Ataques normales--------------------------------------------
 ;===================================================================================
 [Data]
-life = 1100
-power = 3000
+life = 2000
+power = 4000
 attack = 100
 defence = 105
 fall.defence_up = 80
@@ -17,8 +17,8 @@ IntPersistIndex = 60
 FloatPersistIndex = 40
 
 [Size]
-xscale = .8
-yscale = .8
+xscale = 1.1
+yscale = 1.1
 ground.back = 10
 ground.front = 10
 air.back = 10
