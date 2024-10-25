@@ -9,7 +9,7 @@ movetype=A
 anim=1000
 ctrl=0
 velset=0,0
-poweradd=72*!var(20)
+poweradd=-1000
 sprpriority=1
 facep2=1
 
@@ -100,7 +100,7 @@ movetype=A
 anim=1010
 ctrl=0
 velset=0,0
-poweradd=-500
+poweradd=-1000
 sprpriority=1
 facep2=1
 
@@ -206,7 +206,7 @@ movetype=A
 ctrl=0
 juggle=8 - P2StateType=A
 velset=0,0
-poweradd=120*!var(20)
+poweradd=-1500
 sprpriority=1
 facep2=1
 
@@ -657,7 +657,7 @@ ctrl=0
 juggle=6
 anim=1205
 velset=5.8,0
-poweradd=-500
+poweradd=-1500
 sprpriority=1
 facep2=1
 
@@ -895,7 +895,7 @@ movetype=A
 ctrl=0
 juggle=1
 velset=0,0
-poweradd=90*!var(20)
+poweradd= -2000
 sprpriority=1
 facep2=1
 
@@ -1156,7 +1156,7 @@ anim = 1255
 ctrl=0
 juggle=1
 velset=0,0
-poweradd=90*!var(20)
+poweradd= -2000
 sprpriority=1
 facep2=1
 
@@ -1451,7 +1451,7 @@ movetype=A
 ctrl=0
 juggle=ifelse((p2movetype=H && p2statetype=A),6,8)
 velset=0,0
-poweradd=180*!var(20)
+poweradd=-1500
 sprpriority=1
 facep2=1
 
@@ -1608,7 +1608,7 @@ ctrl=0
 juggle=ifelse((p2movetype=H && p2statetype=A),2,8)
 velset=0,0
 anim=1305
-poweradd=-500
+poweradd=-2000
 sprpriority=1
 facep2=1
 
@@ -1995,7 +1995,7 @@ movetype=A
 ctrl=0
 juggle=0
 velset=0,0
-poweradd=-500
+poweradd=-2200
 sprpriority=1
 anim=1405
 facep2=1

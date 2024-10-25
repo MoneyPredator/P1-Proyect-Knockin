@@ -10,7 +10,7 @@ anim=3000
 ctrl=0
 velset=0,0
 facep2=1
-poweradd=-1000
+poweradd=-2000
 sprpriority= -1
 
 [state 3000, posyfix]
@@ -146,6 +146,7 @@ movetype=A
 anim=3100
 ctrl=0
 velset=0,0
+poweradd=-2000
 juggle=6
 facep2=1
 
@@ -421,6 +422,7 @@ movetype=A
 anim=3200
 ctrl=0
 velset=0,0
+poweradd=-2000
 facep2=1
 
 [state 3200, posyfix]
@@ -774,6 +776,7 @@ type=A
 physics=A
 movetype=A
 anim=3300
+poweradd=-2000
 ctrl=0
 
 [state 3300, strengthvar]
@@ -1067,6 +1070,7 @@ physics=S
 movetype=A
 anim=4000
 ctrl=0
+poweradd=-3000
 velset=0,0
 facep2=1
 

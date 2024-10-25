@@ -19,9 +19,9 @@
 ; Var(20) = Turns Mode Intro Pos >_<
 
 [Data]
-life = 1110
-attack = 107
-defence = 108
+life = 2950
+attack = 210
+defence = 60
 power = 3000
 fall.defence_up = 50
 liedown.time = 30
@@ -34,8 +34,8 @@ IntPersistIndex = 9
 FloatPersistIndex = 40
 
 [Size]
-xscale = 0.8           ;Horizontal scaling factor.
-yscale = 0.8         ;Vertical scaling factor.
+xscale = 0.6           ;Horizontal scaling factor.
+yscale = 0.6        ;Vertical scaling factor.
 ground.back = 20     ;Player width (back, ground)
 ground.front = 17    ;Player width (front, ground)
 air.back = 20        ;Player width (back, air)
@@ -1131,7 +1131,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 25
+poweradd= 50
 ctrl = 0
 anim = 241
 
@@ -1154,7 +1154,7 @@ trigger1 = enemyNear, Anim != 5070
 trigger1 = AnimElem = 3
 attr = S, NA
 animtype  = Medium
-damage    = 25
+damage    = 35
 guardflag = HA
 pausetime = 9,7
 sparkxy = 0,-90
@@ -1175,7 +1175,7 @@ trigger1 = enemyNear, Anim != 5070
 trigger1 = AnimElem = 7
 attr = S, NA
 animtype  = Medium
-damage    = 25
+damage    = 40
 guardflag = HA
 pausetime = 9,7
 sparkxy = 0,-90
@@ -1196,7 +1196,7 @@ trigger1 = enemyNear, Anim != 5070
 trigger1 = AnimElem = 8
 attr = S, NA
 animtype  = Medium
-damage    = 25
+damage    = 40
 getpower = 10,5
 givepower = 11,8
 guardflag = HA
@@ -1251,7 +1251,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 1
-poweradd= 40
+poweradd= 55
 ctrl = 0
 anim = 250
 
@@ -1274,7 +1274,7 @@ trigger1 = enemyNear, Anim != 5070
 trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Back
-damage    = 63
+damage    = 75
 guardflag = MA
 pausetime = 9,9
 sparkxy = 0,-50
@@ -1556,7 +1556,7 @@ type    = S
 movetype= A
 physics = S
 juggle  = 5
-poweradd= 60
+poweradd= 70
 ctrl = 0
 anim = 251
 sprpriority = 2
@@ -1595,7 +1595,7 @@ trigger1 = enemyNear, Anim != 5070
 trigger1 = AnimElem = 5
 attr = S, NA
 animtype  = Heavy
-damage    = 85, 10
+damage    = 100, 10
 hitflag = MAF
 guardflag = MA
 priority = 7, Hit
@@ -1765,7 +1765,7 @@ type = HitDef
 trigger1 = enemyNear, Anim != 5070
 trigger1 = Time = 0
 attr = S, NA                     
-damage = 35                   
+damage = 45                  
 animtype = Heavy
 guardflag = MA    
 hitflag = MAf      
@@ -1834,7 +1834,7 @@ type = HitDef
 trigger1 = enemyNear, Anim != 5070
 trigger1 = AnimElem = 2
 attr = C, NA
-damage    = 15
+damage    = 30
 animtype  = Light
 getpower  = 10
 givepower = 8
@@ -1877,7 +1877,7 @@ type    = C
 movetype= A
 physics = C
 juggle  = 4
-poweradd= 25
+poweradd= 30
 ctrl = 0
 anim = 440
 
@@ -1891,10 +1891,10 @@ type = HitDef
 trigger1 = enemyNear, Anim != 5070
 trigger1 = AnimElem = 3
 attr = C, NA
-damage    = 32
+damage    = 44
 animtype  = Med
 getpower  = 20
-givepower = 15
+givepower = 20
 hitflag = MAFD
 guardflag = L
 pausetime = 8,8
@@ -2816,7 +2816,7 @@ givepower = 15,8
 priority = 2, Miss
 sparkno = -1
 hitsound = S1,9
-damage = 50
+damage = 70
 p1stateno = 671
 p2stateno = 673
 fall.yvelocity = -.2
@@ -3063,7 +3063,7 @@ priority = 2, Miss
 sparkno = -1
 getpower = 30,15
 givepower = 15,8
-damage = 0
+damage = 20
 hitsound = S1,9
 p1stateno = 691
 p2stateno = 692
@@ -3128,7 +3128,7 @@ type = HitDef
 trigger1 = AnimElem = 11
 attr = S, NA
 animtype  = High
-damage    = 165
+damage    = 195
 guardflag = MA
 pausetime = 22,1
 numhits = 1
@@ -3513,7 +3513,7 @@ type = HitDef
 trigger1 = EnemyNear, Anim != 5070
 trigger1 = Time = 0
 attr = S, SP
-damage = 78,9
+damage = 90,9
 animtype = Hard
 hitflag = MAF
 guardflag = MA
@@ -3717,7 +3717,7 @@ type = HitDef
 trigger1 = EnemyNear, Anim != 5070
 trigger1 = Time = 0
 attr = S, SP
-damage = 61,6
+damage = 80,6
 animtype = Hard
 hitflag = MAF
 guardflag = MA
@@ -5795,7 +5795,7 @@ trigger3 = animelem = 7
 trigger4 = animelem = 9
 attr = A, SA
 animtype  = Low
-damage    = 30, 6
+damage    = 50, 6
 guardflag = MA
 pausetime = 10,10
 sparkno = 3
@@ -7228,7 +7228,7 @@ type = HitDef
 trigger1 = enemyNear, Anim != 5070
 trigger1 = AnimElem = 4
 attr = S, HA
-damage    = 26,6
+damage    = 50,6
 animtype  = Hard
 getpower  = 0
 givepower = 8
@@ -8871,7 +8871,7 @@ trigger5 = AnimElem = 9
 trigger6 = AnimElem = 11
 attr = A, SA
 animtype = Up
-damage = 20,2
+damage = 40,2
 hitflag = MAF
 guardflag = MA
 pausetime = 2,2
@@ -8936,7 +8936,7 @@ trigger1 = enemyNear, Anim != 5070
 trigger1 = AnimElemTime(1) = 2
 attr = S, SA
 animtype  = High
-damage    = 20, 3
+damage    = 40, 3
 guardflag = MA
 pausetime = 6,6
 sparkno = 3

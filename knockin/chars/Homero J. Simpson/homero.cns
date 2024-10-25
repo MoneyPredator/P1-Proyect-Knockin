@@ -7,9 +7,9 @@
 ;---------------------------------------------------------------------
 ; D´oh !
 [Data]
-life = 1000          
-attack = 100         
-defence = 110        
+life = 500          
+attack = 120         
+defence = 800        
 fall.defence_up = 50 
 liedown.time = 50   
 airjuggle = 15        
@@ -4424,7 +4424,7 @@ type = Varadd
 trigger1 = var(19) < 120 && movetype != H
 persistent = 0
 ignorehitpause = 1
-var(19) = 1
+var(19) = 2
 
 [State -2, VarSet]
 type = VarSet
@@ -4738,6 +4738,8 @@ trigger1 = Time = 1
 trigger1 = anim = 7697
 value = 0,1
 channel = 0
+
+;|-------------------------
 
 ;---------------------------------------------------------------------------
 [Statedef -3]

@@ -80,7 +80,8 @@ Omega Rugal 2002-KOFM, stages/Grecia.def
 Guts, stages/Berserk Eclipse Stage.def,order=1, music=sound/Berserk OST.mp3
 adult eren, stages/(AOT) PRISON ROOF.def
 sans,stages/lastcorridor.def
-CJ,stages/stages/Grove Street SA.def
+cjVTE,stages/stages/Grove Street SA.def
+
 <<<<<<< HEAD
 Naruto Sage, stages/valley_of_the_end.def
 

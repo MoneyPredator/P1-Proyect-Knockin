@@ -784,3 +784,37 @@ trigger1 = statetype = S
 trigger1 = ctrl
 
 
+
+; AI-specific Commands
+[Command]
+name = "cpu_attack"
+command = F, F, a
+time = 10
+
+[Command]
+name = "cpu_defend"
+command = B, B, b
+time = 15
+
+[Command]
+name = "cpu_special"
+command = D, DF, F, x+y
+time = 20
+
+
+; Aggressive AI adjustments
+[Command]
+name = "cpu_fast_attack"
+command = F, F, a
+time = 5  ; Reduced time to make attacks more frequent
+
+[Command]
+name = "cpu_rush"
+command = F, F, F, b
+time = 8  ; Make the rush command more aggressive
+
+[Command]
+name = "cpu_special_aggressive"
+command = D, DF, F, c+x
+time = 12  ; More frequent usage of special moves
+
