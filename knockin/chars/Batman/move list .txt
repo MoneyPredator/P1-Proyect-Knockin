@@ -1,0 +1,29 @@
+                                 Batman
+                       by  Kenshiro99 and Alucard
+
+
+============================== MOVELIST ====================================
+
+Batarang: D, DF, F + punch ( Air OK )
+Bat Combo: D, DB, DB + punch ( press punch or kick to combo )
+Bat Grapple: D, DF, F + kick 
+Hook Smash: D, DB,B+ kick 
+Bat kick :in foward dash, press strong kick
+Scatter Bombs :In Air, B + strong punch
+Launcher: F + strong Punch
+Heavy Kick : B+strong kick
+Overhead punch: F+medium punch
+
+HYPER COMBOS:
+Bat Swarm: D, DF, F 2 Punches
+Grappling Hook : D, DB, B 2 Punches
+Dark Knight: D, DF, F 2 kickes
+Bat Revenge: D, DB, B 2 kickes ( LV3 )
+
+======[SYSTEM MOVES]:
+
+Super Jump: D, U or 3 Kicks [Only "U" after you hit a launcher]
+Dash/Hop Backward: FF/BB
+Advancing Guard: 2 PUNCHES in Guard
+
+Special Thanks to Alucard by the increadible sprites job.

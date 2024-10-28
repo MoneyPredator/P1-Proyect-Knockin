@@ -81,18 +81,18 @@ Guts, stages/Berserk Eclipse Stage.def,order=1, music=sound/Berserk OST.mp3
 adult eren, stages/(AOT) PRISON ROOF.def
 sans,stages/lastcorridor.def
 cjVTE,stages/stages/Grove Street SA.def
-
-<<<<<<< HEAD
+Batman,stages/Grecia.def
+SSJ_GokuZ2, stages/[DBFZ]Cell_Games.def
+Spiderman,stages/Sonson2.def
+Gojo Satoru,stages/lastcorridor.def
+Jesus Christ_RMH,stages/Berserk Eclipse Stage.def
+Homero J. Simpson, stages/valley_of_the_end.def
+Chun_LI_JJ, stages/Sonson2.def
+don-ramon, stages/lastcorridor.def
+Kratos, stages/(AOT) PRISON ROOF.def
 Naruto Sage, stages/valley_of_the_end.def
 
 
-
-=======
-Homero J. Simpson, stages/kfm.def
-Chun_LI_JJ, stages/kfm.def
-don-ramon, stages/kfm.def
-Kratos, stages/kfm.def
->>>>>>> f0614a4937923b94ac6a2b473c0d537cddc36f05
 
 ;-----------------------
 [ExtraStages]

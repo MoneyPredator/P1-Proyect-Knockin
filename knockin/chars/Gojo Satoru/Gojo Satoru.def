@@ -1,0 +1,25 @@
+
+[Info]
+name = "Gojo Satoru"
+displayname = "Gojo Satoru"
+versiondate = 12/23/2020
+mugenversion = 1.1
+author = "JOEYJOSTAR"
+pal.defaults =1
+
+[Files]
+sprite = Gojo Satoru.sff
+anim = Gojo Satoru.air
+sound = Gojo Satoru.snd
+cmd = Gojo Satoru.cmd
+cns = Gojo Satoru.cns
+st = Gojo Satoru.cns
+stcommon = common1.cns
+st1 = Specials.cns
+st2 = Super.cns
+st3 = IA.cns
+
+
+[Arcade]
+intro.storyboard = 
+ending.storyboard = 

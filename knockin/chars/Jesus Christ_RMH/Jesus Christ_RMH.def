@@ -1,0 +1,27 @@
+
+;Blessed by RobotMonkeyHead
+
+[Info]
+name="jesus"
+displayname="Jesus Christ"
+versiondate=29/05/2008
+mugenversion=
+author="RobotMonkeyHead
+
+"
+pal.defaults=
+[Files]
+sprite=jesus.sff
+sound=jesus.snd
+anim=jesus.air
+cmd=jesus.cmd
+cns=jesus.cns
+st=jesus.cns
+stcommon=common1.cns
+pal1=pal2.act
+pal2=pal.act
+pal3=pal3.act
+pal4=pal4.act
+[Arcade]
+intro.storyboard=
+ending.storyboard=

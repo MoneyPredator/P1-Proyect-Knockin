@@ -1,0 +1,51 @@
+
+
+--- Jesus Christ ---
+
+from "Bible Fight" by storm0062
+blessed by RobotMonkeyHead 5/29/12
+
+4 button character
+
+x = punch
+y = cross smash
+a = knee
+b = baptism
+
+no crouch
+
+
+;-| Specials |------------------------------------------------------
+
+D, DF, F, x or y = Throw crown of thorns
+D, DB, B, y = Make it rain birds and fish
+
+;-| Hypers |--------------------------------------------------------
+
+D, DF, F, a+b = Cute Animal Stampede [Lvl 1] 
+D, DF, F, x+y = Resurrection [Lvl 3]     (must have less than half life)
+
+///////////////////////////////////////////////////////////////////////////
+
+
+
+--- RobotMonkeyHead's Change Log --- 
+
+-From 2 Button to 4 Button Char via
+ Cross Smash and Baptism Specials to regulars.
+
+-Changed commands for specials and hypers so rewrote moves list.
+
+-Smoothed out standing and jump attack animations
+
+-120x140ed portrait
+
+
+
+
+
+
+
+
+
+
